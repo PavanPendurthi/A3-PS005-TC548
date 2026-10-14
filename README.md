@@ -5,8 +5,7 @@
 ---
 
 ## 🎥 Proposal Video
-[![Watch the Presentation](https://drive.google.com/file/d/19TNxLkUiojN4duOh7i48hMnbpKdVXVgU/view?usp=sharing)
-*Click the badge above to watch our project overview, implementation details, and proposed Level 2 deployment timeline.*
+https://drive.google.com/file/d/19TNxLkUiojN4duOh7i48hMnbpKdVXVgU/view?usp=sharing
 
 ---
 

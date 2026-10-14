@@ -82,7 +82,7 @@ Evaluated on **200 synthetic hijack events** (50 origin mismatches, 50 sub-prefi
 ---
 
 ## 👨‍💻 Team PRISM & Project Details
-* **Lead Researcher:** Pavan Sri Sai Pendurthi (`pendurthipavansai@gmail.com`)
+* **Lead Researchers:** Pavan Sri Sai Pendurthi & Dar Jasif
 * **Project Lab:** PRISM Lab, Indian Institute of Technology (IIT), Guwahati
 * **Research Supervisor:** Dr. Satyajit Das
 * **GitHub Repository:** [PavanPendurthi/A3-PS005-TC548](https://github.com/PavanPendurthi/A3-PS005-TC548)

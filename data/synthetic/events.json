@@ -1,0 +1,2532 @@
+[
+  {
+    "timestamp": "2024-06-01T00:44:21",
+    "prefix": "68.192.0.0/13",
+    "origin_asn": 6128,
+    "as_path": [
+      65100,
+      65101,
+      6128
+    ],
+    "label": "LEGIT",
+    "attack_type": null,
+    "note": "Normal valid announcement"
+  },
+  {
+    "timestamp": "2024-06-01T00:21:59",
+    "prefix": "123.103.44.0/22",
+    "origin_asn": 64520,
+    "as_path": [
+      65010,
+      64520
+    ],
+    "label": "HIJACK",
+    "attack_type": "SUBPREFIX_HIJACK",
+    "note": "Parent=123.103.40.0/21, legit ASN=4808"
+  },
+  {
+    "timestamp": "2024-06-01T00:55:12",
+    "prefix": "2a05:dfc1:8e95::/48",
+    "origin_asn": 58339,
+    "as_path": [
+      65200,
+      58339
+    ],
+    "label": "LEGIT",
+    "attack_type": null,
+    "note": "Anycast \u2014 multiple ASNs serving same prefix (edge case)"
+  },
+  {
+    "timestamp": "2024-06-01T00:51:55",
+    "prefix": "223.105.148.0/22",
+    "origin_asn": 56046,
+    "as_path": [
+      65200,
+      56046
+    ],
+    "label": "LEGIT",
+    "attack_type": null,
+    "note": "Anycast \u2014 multiple ASNs serving same prefix (edge case)"
+  },
+  {
+    "timestamp": "2024-06-01T00:16:39",
+    "prefix": "78.130.205.0/25",
+    "origin_asn": 64554,
+    "as_path": [
+      65010,
+      64554
+    ],
+    "label": "HIJACK",
+    "attack_type": "SUBPREFIX_HIJACK",
+    "note": "Parent=78.130.205.0/24, legit ASN=9070"
+  },
+  {
+    "timestamp": "2024-06-01T00:19:31",
+    "prefix": "203.195.240.0/24",
+    "origin_asn": 64564,
+    "as_path": [
+      65010,
+      64564
+    ],
+    "label": "HIJACK",
+    "attack_type": "SUBPREFIX_HIJACK",
+    "note": "Parent=203.195.240.0/23, legit ASN=45090"
+  },
+  {
+    "timestamp": "2024-06-01T00:54:15",
+    "prefix": "103.100.113.0/24",
+    "origin_asn": 133527,
+    "as_path": [
+      65200,
+      133527
+    ],
+    "label": "LEGIT",
+    "attack_type": null,
+    "note": "Anycast \u2014 multiple ASNs serving same prefix (edge case)"
+  },
+  {
+    "timestamp": "2024-06-01T00:49:01",
+    "prefix": "104.253.88.0/24",
+    "origin_asn": 834,
+    "as_path": [
+      65100,
+      65101,
+      834
+    ],
+    "label": "LEGIT",
+    "attack_type": null,
+    "note": "Normal valid announcement"
+  },
+  {
+    "timestamp": "2024-06-01T00:44:09",
+    "prefix": "194.93.60.0/24",
+    "origin_asn": 274173,
+    "as_path": [
+      65100,
+      65101,
+      274173
+    ],
+    "label": "LEGIT",
+    "attack_type": null,
+    "note": "Normal valid announcement"
+  },
+  {
+    "timestamp": "2024-06-01T00:20:01",
+    "prefix": "83.4.0.0/17",
+    "origin_asn": 64554,
+    "as_path": [
+      65010,
+      64554
+    ],
+    "label": "HIJACK",
+    "attack_type": "SUBPREFIX_HIJACK",
+    "note": "Parent=83.4.0.0/16, legit ASN=5617"
+  },
+  {
+    "timestamp": "2024-06-01T00:16:04",
+    "prefix": "221.225.142.128/25",
+    "origin_asn": 64518,
+    "as_path": [
+      65010,
+      64518
+    ],
+    "label": "HIJACK",
+    "attack_type": "SUBPREFIX_HIJACK",
+    "note": "Parent=221.225.142.0/24, legit ASN=140292"
+  },
+  {
+    "timestamp": "2024-06-01T00:53:20",
+    "prefix": "94.78.120.0/24",
+    "origin_asn": 44558,
+    "as_path": [
+      65200,
+      44558
+    ],
+    "label": "LEGIT",
+    "attack_type": null,
+    "note": "Anycast \u2014 multiple ASNs serving same prefix (edge case)"
+  },
+  {
+    "timestamp": "2024-06-01T00:39:30",
+    "prefix": "194.170.72.0/24",
+    "origin_asn": 5384,
+    "as_path": [
+      65100,
+      65101,
+      5384
+    ],
+    "label": "LEGIT",
+    "attack_type": null,
+    "note": "Normal valid announcement"
+  },
+  {
+    "timestamp": "2024-06-01T00:00:19",
+    "prefix": "39.163.0.0/16",
+    "origin_asn": 64578,
+    "as_path": [
+      65001,
+      65002,
+      64578
+    ],
+    "label": "HIJACK",
+    "attack_type": "ORIGIN_MISMATCH",
+    "note": "Legit ASN=24445, hijacker ASN=64578"
+  },
+  {
+    "timestamp": "2024-06-01T00:11:47",
+    "prefix": "2001:df6:1e40::/48",
+    "origin_asn": 64564,
+    "as_path": [
+      65001,
+      65002,
+      64564
+    ],
+    "label": "HIJACK",
+    "attack_type": "ORIGIN_MISMATCH",
+    "note": "Legit ASN=154228, hijacker ASN=64564"
+  },
+  {
+    "timestamp": "2024-06-01T00:21:30",
+    "prefix": "210.48.218.0/25",
+    "origin_asn": 64563,
+    "as_path": [
+      65010,
+      64563
+    ],
+    "label": "HIJACK",
+    "attack_type": "SUBPREFIX_HIJACK",
+    "note": "Parent=210.48.218.0/24, legit ASN=45344"
+  },
+  {
+    "timestamp": "2024-06-01T00:52:37",
+    "prefix": "89.125.167.0/24",
+    "origin_asn": 214159,
+    "as_path": [
+      65200,
+      214159
+    ],
+    "label": "LEGIT",
+    "attack_type": null,
+    "note": "Anycast \u2014 multiple ASNs serving same prefix (edge case)"
+  },
+  {
+    "timestamp": "2024-06-01T00:14:15",
+    "prefix": "240a:aaab::/32",
+    "origin_asn": 64583,
+    "as_path": [
+      65001,
+      65002,
+      64583
+    ],
+    "label": "HIJACK",
+    "attack_type": "ORIGIN_MISMATCH",
+    "note": "Legit ASN=23910, hijacker ASN=64583"
+  },
+  {
+    "timestamp": "2024-06-01T00:31:10",
+    "prefix": "194.4.68.0/22",
+    "origin_asn": 56899,
+    "as_path": [
+      65100,
+      65101,
+      56899
+    ],
+    "label": "LEGIT",
+    "attack_type": null,
+    "note": "Normal valid announcement"
+  },
+  {
+    "timestamp": "2024-06-01T00:40:43",
+    "prefix": "96.239.180.0/22",
+    "origin_asn": 701,
+    "as_path": [
+      65100,
+      65101,
+      701
+    ],
+    "label": "LEGIT",
+    "attack_type": null,
+    "note": "Normal valid announcement"
+  },
+  {
+    "timestamp": "2024-06-01T00:02:06",
+    "prefix": "45.156.185.0/24",
+    "origin_asn": 64592,
+    "as_path": [
+      65001,
+      65002,
+      64592
+    ],
+    "label": "HIJACK",
+    "attack_type": "ORIGIN_MISMATCH",
+    "note": "Legit ASN=208161, hijacker ASN=64592"
+  },
+  {
+    "timestamp": "2024-06-01T00:15:02",
+    "prefix": "2a05:d072:c020::/49",
+    "origin_asn": 64582,
+    "as_path": [
+      65010,
+      64582
+    ],
+    "label": "HIJACK",
+    "attack_type": "SUBPREFIX_HIJACK",
+    "note": "Parent=2a05:d072:c020::/48, legit ASN=16509"
+  },
+  {
+    "timestamp": "2024-06-01T00:05:36",
+    "prefix": "195.130.122.0/24",
+    "origin_asn": 64524,
+    "as_path": [
+      65001,
+      65002,
+      64524
+    ],
+    "label": "HIJACK",
+    "attack_type": "ORIGIN_MISMATCH",
+    "note": "Legit ASN=50148, hijacker ASN=64524"
+  },
+  {
+    "timestamp": "2024-06-01T00:49:32",
+    "prefix": "154.90.24.0/24",
+    "origin_asn": 22773,
+    "as_path": [
+      65100,
+      65101,
+      22773
+    ],
+    "label": "LEGIT",
+    "attack_type": null,
+    "note": "Normal valid announcement"
+  },
+  {
+    "timestamp": "2024-06-01T00:33:43",
+    "prefix": "2607:f8b0:4006::/48",
+    "origin_asn": 15169,
+    "as_path": [
+      65100,
+      65101,
+      15169
+    ],
+    "label": "LEGIT",
+    "attack_type": null,
+    "note": "Normal valid announcement"
+  },
+  {
+    "timestamp": "2024-06-01T00:27:22",
+    "prefix": "81.29.208.0/20",
+    "origin_asn": 64598,
+    "as_path": [
+      65010,
+      64598
+    ],
+    "label": "HIJACK",
+    "attack_type": "SUBPREFIX_HIJACK",
+    "note": "Parent=81.29.192.0/19, legit ASN=15830"
+  },
+  {
+    "timestamp": "2024-06-01T00:32:39",
+    "prefix": "138.16.73.0/24",
+    "origin_asn": 44559,
+    "as_path": [
+      65100,
+      65101,
+      44559
+    ],
+    "label": "LEGIT",
+    "attack_type": null,
+    "note": "Normal valid announcement"
+  },
+  {
+    "timestamp": "2024-06-01T00:21:10",
+    "prefix": "103.93.219.128/25",
+    "origin_asn": 64556,
+    "as_path": [
+      65010,
+      64556
+    ],
+    "label": "HIJACK",
+    "attack_type": "SUBPREFIX_HIJACK",
+    "note": "Parent=103.93.219.0/24, legit ASN=58895"
+  },
+  {
+    "timestamp": "2024-06-01T00:29:11",
+    "prefix": "96.239.180.0/22",
+    "origin_asn": 701,
+    "as_path": [
+      65100,
+      65101,
+      701
+    ],
+    "label": "LEGIT",
+    "attack_type": null,
+    "note": "Normal valid announcement"
+  },
+  {
+    "timestamp": "2024-06-01T00:05:17",
+    "prefix": "39.163.0.0/16",
+    "origin_asn": 64572,
+    "as_path": [
+      65001,
+      65002,
+      64572
+    ],
+    "label": "HIJACK",
+    "attack_type": "ORIGIN_MISMATCH",
+    "note": "Legit ASN=24445, hijacker ASN=64572"
+  },
+  {
+    "timestamp": "2024-06-01T00:49:19",
+    "prefix": "45.194.240.0/24",
+    "origin_asn": 17561,
+    "as_path": [
+      65100,
+      65101,
+      17561
+    ],
+    "label": "LEGIT",
+    "attack_type": null,
+    "note": "Normal valid announcement"
+  },
+  {
+    "timestamp": "2024-06-01T00:25:40",
+    "prefix": "67.221.253.0/25",
+    "origin_asn": 64597,
+    "as_path": [
+      65010,
+      64597
+    ],
+    "label": "HIJACK",
+    "attack_type": "SUBPREFIX_HIJACK",
+    "note": "Parent=67.221.253.0/24, legit ASN=203993"
+  },
+  {
+    "timestamp": "2024-06-01T00:39:56",
+    "prefix": "64.62.197.0/24",
+    "origin_asn": 22168,
+    "as_path": [
+      65100,
+      65101,
+      22168
+    ],
+    "label": "LEGIT",
+    "attack_type": null,
+    "note": "Normal valid announcement"
+  },
+  {
+    "timestamp": "2024-06-01T00:29:46",
+    "prefix": "2407:bb00::/36",
+    "origin_asn": 45625,
+    "as_path": [
+      65100,
+      65101,
+      45625
+    ],
+    "label": "LEGIT",
+    "attack_type": null,
+    "note": "Normal valid announcement"
+  },
+  {
+    "timestamp": "2024-06-01T00:08:26",
+    "prefix": "221.225.142.0/24",
+    "origin_asn": 64555,
+    "as_path": [
+      65001,
+      65002,
+      64555
+    ],
+    "label": "HIJACK",
+    "attack_type": "ORIGIN_MISMATCH",
+    "note": "Legit ASN=140292, hijacker ASN=64555"
+  },
+  {
+    "timestamp": "2024-06-01T00:23:17",
+    "prefix": "45.117.1.128/25",
+    "origin_asn": 64534,
+    "as_path": [
+      65010,
+      64534
+    ],
+    "label": "HIJACK",
+    "attack_type": "SUBPREFIX_HIJACK",
+    "note": "Parent=45.117.1.0/24, legit ASN=135817"
+  },
+  {
+    "timestamp": "2024-06-01T00:09:39",
+    "prefix": "180.153.228.0/22",
+    "origin_asn": 64535,
+    "as_path": [
+      65001,
+      65002,
+      64535
+    ],
+    "label": "HIJACK",
+    "attack_type": "ORIGIN_MISMATCH",
+    "note": "Legit ASN=4811, hijacker ASN=64535"
+  },
+  {
+    "timestamp": "2024-06-01T00:03:44",
+    "prefix": "2001:16a2:c009::/48",
+    "origin_asn": 64539,
+    "as_path": [
+      65001,
+      65002,
+      64539
+    ],
+    "label": "HIJACK",
+    "attack_type": "ORIGIN_MISMATCH",
+    "note": "Legit ASN=39891, hijacker ASN=64539"
+  },
+  {
+    "timestamp": "2024-06-01T00:07:28",
+    "prefix": "111.92.171.0/24",
+    "origin_asn": 64524,
+    "as_path": [
+      65001,
+      65002,
+      64524
+    ],
+    "label": "HIJACK",
+    "attack_type": "ORIGIN_MISMATCH",
+    "note": "Legit ASN=23671, hijacker ASN=64524"
+  },
+  {
+    "timestamp": "2024-06-01T00:26:19",
+    "prefix": "136.162.150.0/23",
+    "origin_asn": 64553,
+    "as_path": [
+      65010,
+      64553
+    ],
+    "label": "HIJACK",
+    "attack_type": "SUBPREFIX_HIJACK",
+    "note": "Parent=136.162.148.0/22, legit ASN=7029"
+  },
+  {
+    "timestamp": "2024-06-01T00:17:52",
+    "prefix": "2600:1f1d:4800::/38",
+    "origin_asn": 64581,
+    "as_path": [
+      65010,
+      64581
+    ],
+    "label": "HIJACK",
+    "attack_type": "SUBPREFIX_HIJACK",
+    "note": "Parent=2600:1f1d:4800::/37, legit ASN=14618"
+  },
+  {
+    "timestamp": "2024-06-01T00:27:40",
+    "prefix": "203.105.174.0/24",
+    "origin_asn": 4755,
+    "as_path": [
+      65100,
+      65101,
+      4755
+    ],
+    "label": "LEGIT",
+    "attack_type": null,
+    "note": "Normal valid announcement"
+  },
+  {
+    "timestamp": "2024-06-01T00:42:35",
+    "prefix": "170.114.0.0/20",
+    "origin_asn": 16509,
+    "as_path": [
+      65100,
+      65101,
+      16509
+    ],
+    "label": "LEGIT",
+    "attack_type": null,
+    "note": "Normal valid announcement"
+  },
+  {
+    "timestamp": "2024-06-01T00:05:28",
+    "prefix": "88.213.214.0/24",
+    "origin_asn": 64564,
+    "as_path": [
+      65001,
+      65002,
+      64564
+    ],
+    "label": "HIJACK",
+    "attack_type": "ORIGIN_MISMATCH",
+    "note": "Legit ASN=61071, hijacker ASN=64564"
+  },
+  {
+    "timestamp": "2024-06-01T00:14:37",
+    "prefix": "103.93.219.0/25",
+    "origin_asn": 64597,
+    "as_path": [
+      65010,
+      64597
+    ],
+    "label": "HIJACK",
+    "attack_type": "SUBPREFIX_HIJACK",
+    "note": "Parent=103.93.219.0/24, legit ASN=58895"
+  },
+  {
+    "timestamp": "2024-06-01T00:46:33",
+    "prefix": "46.1.24.0/22",
+    "origin_asn": 34296,
+    "as_path": [
+      65100,
+      65101,
+      34296
+    ],
+    "label": "LEGIT",
+    "attack_type": null,
+    "note": "Normal valid announcement"
+  },
+  {
+    "timestamp": "2024-06-01T00:02:13",
+    "prefix": "78.130.205.0/24",
+    "origin_asn": 64541,
+    "as_path": [
+      65001,
+      65002,
+      64541
+    ],
+    "label": "HIJACK",
+    "attack_type": "ORIGIN_MISMATCH",
+    "note": "Legit ASN=9070, hijacker ASN=64541"
+  },
+  {
+    "timestamp": "2024-06-01T00:42:13",
+    "prefix": "2001:579:6098::/46",
+    "origin_asn": 22773,
+    "as_path": [
+      65100,
+      65101,
+      22773
+    ],
+    "label": "LEGIT",
+    "attack_type": null,
+    "note": "Normal valid announcement"
+  },
+  {
+    "timestamp": "2024-06-01T00:17:46",
+    "prefix": "138.16.73.0/25",
+    "origin_asn": 64521,
+    "as_path": [
+      65010,
+      64521
+    ],
+    "label": "HIJACK",
+    "attack_type": "SUBPREFIX_HIJACK",
+    "note": "Parent=138.16.73.0/24, legit ASN=44559"
+  },
+  {
+    "timestamp": "2024-06-01T00:27:55",
+    "prefix": "203.195.240.0/23",
+    "origin_asn": 45090,
+    "as_path": [
+      65100,
+      65101,
+      45090
+    ],
+    "label": "LEGIT",
+    "attack_type": null,
+    "note": "Normal valid announcement"
+  },
+  {
+    "timestamp": "2024-06-01T00:51:10",
+    "prefix": "2602:faaf:2::/48",
+    "origin_asn": 49585,
+    "as_path": [
+      65200,
+      49585
+    ],
+    "label": "LEGIT",
+    "attack_type": null,
+    "note": "Anycast \u2014 multiple ASNs serving same prefix (edge case)"
+  },
+  {
+    "timestamp": "2024-06-01T00:45:42",
+    "prefix": "193.242.209.0/24",
+    "origin_asn": 208161,
+    "as_path": [
+      65100,
+      65101,
+      208161
+    ],
+    "label": "LEGIT",
+    "attack_type": null,
+    "note": "Normal valid announcement"
+  },
+  {
+    "timestamp": "2024-06-01T00:42:57",
+    "prefix": "2001:250:1c02::/48",
+    "origin_asn": 138376,
+    "as_path": [
+      65100,
+      65101,
+      138376
+    ],
+    "label": "LEGIT",
+    "attack_type": null,
+    "note": "Normal valid announcement"
+  },
+  {
+    "timestamp": "2024-06-01T00:07:22",
+    "prefix": "46.252.16.0/20",
+    "origin_asn": 64595,
+    "as_path": [
+      65001,
+      65002,
+      64595
+    ],
+    "label": "HIJACK",
+    "attack_type": "ORIGIN_MISMATCH",
+    "note": "Legit ASN=21499, hijacker ASN=64595"
+  },
+  {
+    "timestamp": "2024-06-01T00:37:24",
+    "prefix": "199.237.96.0/23",
+    "origin_asn": 13700,
+    "as_path": [
+      65100,
+      65101,
+      13700
+    ],
+    "label": "LEGIT",
+    "attack_type": null,
+    "note": "Normal valid announcement"
+  },
+  {
+    "timestamp": "2024-06-01T00:14:53",
+    "prefix": "92.12.0.0/15",
+    "origin_asn": 64545,
+    "as_path": [
+      65010,
+      64545
+    ],
+    "label": "HIJACK",
+    "attack_type": "SUBPREFIX_HIJACK",
+    "note": "Parent=92.12.0.0/14, legit ASN=19905"
+  },
+  {
+    "timestamp": "2024-06-01T00:55:57",
+    "prefix": "183.220.146.0/24",
+    "origin_asn": 139080,
+    "as_path": [
+      65200,
+      139080
+    ],
+    "label": "LEGIT",
+    "attack_type": null,
+    "note": "Anycast \u2014 multiple ASNs serving same prefix (edge case)"
+  },
+  {
+    "timestamp": "2024-06-01T00:55:49",
+    "prefix": "151.237.126.0/24",
+    "origin_asn": 50186,
+    "as_path": [
+      65200,
+      50186
+    ],
+    "label": "LEGIT",
+    "attack_type": null,
+    "note": "Anycast \u2014 multiple ASNs serving same prefix (edge case)"
+  },
+  {
+    "timestamp": "2024-06-01T00:15:37",
+    "prefix": "190.112.224.0/20",
+    "origin_asn": 64555,
+    "as_path": [
+      65010,
+      64555
+    ],
+    "label": "HIJACK",
+    "attack_type": "SUBPREFIX_HIJACK",
+    "note": "Parent=190.112.224.0/19, legit ASN=52233"
+  },
+  {
+    "timestamp": "2024-06-01T00:55:37",
+    "prefix": "92.42.47.0/24",
+    "origin_asn": 206996,
+    "as_path": [
+      65200,
+      206996
+    ],
+    "label": "LEGIT",
+    "attack_type": null,
+    "note": "Anycast \u2014 multiple ASNs serving same prefix (edge case)"
+  },
+  {
+    "timestamp": "2024-06-01T00:52:00",
+    "prefix": "2407:bb00::/36",
+    "origin_asn": 45625,
+    "as_path": [
+      65200,
+      45625
+    ],
+    "label": "LEGIT",
+    "attack_type": null,
+    "note": "Anycast \u2014 multiple ASNs serving same prefix (edge case)"
+  },
+  {
+    "timestamp": "2024-06-01T00:18:14",
+    "prefix": "194.93.60.128/25",
+    "origin_asn": 64586,
+    "as_path": [
+      65010,
+      64586
+    ],
+    "label": "HIJACK",
+    "attack_type": "SUBPREFIX_HIJACK",
+    "note": "Parent=194.93.60.0/24, legit ASN=274173"
+  },
+  {
+    "timestamp": "2024-06-01T00:02:49",
+    "prefix": "187.1.137.0/24",
+    "origin_asn": 64521,
+    "as_path": [
+      65001,
+      65002,
+      64521
+    ],
+    "label": "HIJACK",
+    "attack_type": "ORIGIN_MISMATCH",
+    "note": "Legit ASN=27715, hijacker ASN=64521"
+  },
+  {
+    "timestamp": "2024-06-01T00:12:04",
+    "prefix": "39.163.0.0/16",
+    "origin_asn": 64563,
+    "as_path": [
+      65001,
+      65002,
+      64563
+    ],
+    "label": "HIJACK",
+    "attack_type": "ORIGIN_MISMATCH",
+    "note": "Legit ASN=24445, hijacker ASN=64563"
+  },
+  {
+    "timestamp": "2024-06-01T00:36:28",
+    "prefix": "2409:8750:ffd2::/48",
+    "origin_asn": 56047,
+    "as_path": [
+      65100,
+      65101,
+      56047
+    ],
+    "label": "LEGIT",
+    "attack_type": null,
+    "note": "Normal valid announcement"
+  },
+  {
+    "timestamp": "2024-06-01T00:28:36",
+    "prefix": "193.242.209.0/24",
+    "origin_asn": 208161,
+    "as_path": [
+      65100,
+      65101,
+      208161
+    ],
+    "label": "LEGIT",
+    "attack_type": null,
+    "note": "Normal valid announcement"
+  },
+  {
+    "timestamp": "2024-06-01T00:47:33",
+    "prefix": "2a04:4e40:f430::/44",
+    "origin_asn": 54113,
+    "as_path": [
+      65100,
+      65101,
+      54113
+    ],
+    "label": "LEGIT",
+    "attack_type": null,
+    "note": "Normal valid announcement"
+  },
+  {
+    "timestamp": "2024-06-01T00:45:04",
+    "prefix": "103.93.219.0/24",
+    "origin_asn": 58895,
+    "as_path": [
+      65100,
+      65101,
+      58895
+    ],
+    "label": "LEGIT",
+    "attack_type": null,
+    "note": "Normal valid announcement"
+  },
+  {
+    "timestamp": "2024-06-01T00:21:15",
+    "prefix": "80.82.64.0/25",
+    "origin_asn": 64540,
+    "as_path": [
+      65010,
+      64540
+    ],
+    "label": "HIJACK",
+    "attack_type": "SUBPREFIX_HIJACK",
+    "note": "Parent=80.82.64.0/24, legit ASN=202425"
+  },
+  {
+    "timestamp": "2024-06-01T00:03:22",
+    "prefix": "92.12.0.0/14",
+    "origin_asn": 64597,
+    "as_path": [
+      65001,
+      65002,
+      64597
+    ],
+    "label": "HIJACK",
+    "attack_type": "ORIGIN_MISMATCH",
+    "note": "Legit ASN=19905, hijacker ASN=64597"
+  },
+  {
+    "timestamp": "2024-06-01T00:45:32",
+    "prefix": "111.92.171.0/24",
+    "origin_asn": 23671,
+    "as_path": [
+      65100,
+      65101,
+      23671
+    ],
+    "label": "LEGIT",
+    "attack_type": null,
+    "note": "Normal valid announcement"
+  },
+  {
+    "timestamp": "2024-06-01T00:56:53",
+    "prefix": "168.196.244.0/24",
+    "origin_asn": 263801,
+    "as_path": [
+      65200,
+      263801
+    ],
+    "label": "LEGIT",
+    "attack_type": null,
+    "note": "Anycast \u2014 multiple ASNs serving same prefix (edge case)"
+  },
+  {
+    "timestamp": "2024-06-01T00:34:18",
+    "prefix": "123.103.40.0/21",
+    "origin_asn": 4808,
+    "as_path": [
+      65100,
+      65101,
+      4808
+    ],
+    "label": "LEGIT",
+    "attack_type": null,
+    "note": "Normal valid announcement"
+  },
+  {
+    "timestamp": "2024-06-01T00:31:39",
+    "prefix": "203.105.174.0/24",
+    "origin_asn": 4755,
+    "as_path": [
+      65100,
+      65101,
+      4755
+    ],
+    "label": "LEGIT",
+    "attack_type": null,
+    "note": "Normal valid announcement"
+  },
+  {
+    "timestamp": "2024-06-01T00:01:33",
+    "prefix": "2c0f:f280::/32",
+    "origin_asn": 64540,
+    "as_path": [
+      65001,
+      65002,
+      64540
+    ],
+    "label": "HIJACK",
+    "attack_type": "ORIGIN_MISMATCH",
+    "note": "Legit ASN=37645, hijacker ASN=64540"
+  },
+  {
+    "timestamp": "2024-06-01T00:01:28",
+    "prefix": "45.233.152.0/22",
+    "origin_asn": 64541,
+    "as_path": [
+      65001,
+      65002,
+      64541
+    ],
+    "label": "HIJACK",
+    "attack_type": "ORIGIN_MISMATCH",
+    "note": "Legit ASN=267328, hijacker ASN=64541"
+  },
+  {
+    "timestamp": "2024-06-01T00:25:07",
+    "prefix": "117.143.154.0/23",
+    "origin_asn": 64512,
+    "as_path": [
+      65010,
+      64512
+    ],
+    "label": "HIJACK",
+    "attack_type": "SUBPREFIX_HIJACK",
+    "note": "Parent=117.143.152.0/22, legit ASN=24400"
+  },
+  {
+    "timestamp": "2024-06-01T00:04:35",
+    "prefix": "180.129.36.0/24",
+    "origin_asn": 64585,
+    "as_path": [
+      65001,
+      65002,
+      64585
+    ],
+    "label": "HIJACK",
+    "attack_type": "ORIGIN_MISMATCH",
+    "note": "Legit ASN=4773, hijacker ASN=64585"
+  },
+  {
+    "timestamp": "2024-06-01T00:26:54",
+    "prefix": "185.45.80.0/25",
+    "origin_asn": 64565,
+    "as_path": [
+      65010,
+      64565
+    ],
+    "label": "HIJACK",
+    "attack_type": "SUBPREFIX_HIJACK",
+    "note": "Parent=185.45.80.0/24, legit ASN=34545"
+  },
+  {
+    "timestamp": "2024-06-01T00:00:31",
+    "prefix": "117.143.152.0/22",
+    "origin_asn": 64527,
+    "as_path": [
+      65001,
+      65002,
+      64527
+    ],
+    "label": "HIJACK",
+    "attack_type": "ORIGIN_MISMATCH",
+    "note": "Legit ASN=24400, hijacker ASN=64527"
+  },
+  {
+    "timestamp": "2024-06-01T00:10:48",
+    "prefix": "193.242.209.0/24",
+    "origin_asn": 64581,
+    "as_path": [
+      65001,
+      65002,
+      64581
+    ],
+    "label": "HIJACK",
+    "attack_type": "ORIGIN_MISMATCH",
+    "note": "Legit ASN=208161, hijacker ASN=64581"
+  },
+  {
+    "timestamp": "2024-06-01T00:46:01",
+    "prefix": "2602:fa80:43::/48",
+    "origin_asn": 140666,
+    "as_path": [
+      65100,
+      65101,
+      140666
+    ],
+    "label": "LEGIT",
+    "attack_type": null,
+    "note": "Normal valid announcement"
+  },
+  {
+    "timestamp": "2024-06-01T00:43:20",
+    "prefix": "103.100.113.0/24",
+    "origin_asn": 133527,
+    "as_path": [
+      65100,
+      65101,
+      133527
+    ],
+    "label": "LEGIT",
+    "attack_type": null,
+    "note": "Normal valid announcement"
+  },
+  {
+    "timestamp": "2024-06-01T00:29:00",
+    "prefix": "104.253.88.0/24",
+    "origin_asn": 834,
+    "as_path": [
+      65100,
+      65101,
+      834
+    ],
+    "label": "LEGIT",
+    "attack_type": null,
+    "note": "Normal valid announcement"
+  },
+  {
+    "timestamp": "2024-06-01T00:10:43",
+    "prefix": "2409:8750:ffd2::/48",
+    "origin_asn": 64518,
+    "as_path": [
+      65001,
+      65002,
+      64518
+    ],
+    "label": "HIJACK",
+    "attack_type": "ORIGIN_MISMATCH",
+    "note": "Legit ASN=56047, hijacker ASN=64518"
+  },
+  {
+    "timestamp": "2024-06-01T00:53:37",
+    "prefix": "180.129.36.0/24",
+    "origin_asn": 4773,
+    "as_path": [
+      65200,
+      4773
+    ],
+    "label": "LEGIT",
+    "attack_type": null,
+    "note": "Anycast \u2014 multiple ASNs serving same prefix (edge case)"
+  },
+  {
+    "timestamp": "2024-06-01T00:03:02",
+    "prefix": "240e:258::/30",
+    "origin_asn": 64542,
+    "as_path": [
+      65001,
+      65002,
+      64542
+    ],
+    "label": "HIJACK",
+    "attack_type": "ORIGIN_MISMATCH",
+    "note": "Legit ASN=4134, hijacker ASN=64542"
+  },
+  {
+    "timestamp": "2024-06-01T00:10:18",
+    "prefix": "184.170.67.0/24",
+    "origin_asn": 64582,
+    "as_path": [
+      65001,
+      65002,
+      64582
+    ],
+    "label": "HIJACK",
+    "attack_type": "ORIGIN_MISMATCH",
+    "note": "Legit ASN=4922, hijacker ASN=64582"
+  },
+  {
+    "timestamp": "2024-06-01T00:20:45",
+    "prefix": "186.243.162.0/25",
+    "origin_asn": 64560,
+    "as_path": [
+      65010,
+      64560
+    ],
+    "label": "HIJACK",
+    "attack_type": "SUBPREFIX_HIJACK",
+    "note": "Parent=186.243.162.0/24, legit ASN=44559"
+  },
+  {
+    "timestamp": "2024-06-01T00:50:32",
+    "prefix": "2804:7bf8:4000::/34",
+    "origin_asn": 271466,
+    "as_path": [
+      65100,
+      65101,
+      271466
+    ],
+    "label": "LEGIT",
+    "attack_type": null,
+    "note": "Normal valid announcement"
+  },
+  {
+    "timestamp": "2024-06-01T00:36:52",
+    "prefix": "170.114.0.0/20",
+    "origin_asn": 16509,
+    "as_path": [
+      65100,
+      65101,
+      16509
+    ],
+    "label": "LEGIT",
+    "attack_type": null,
+    "note": "Normal valid announcement"
+  },
+  {
+    "timestamp": "2024-06-01T00:10:10",
+    "prefix": "92.42.47.0/24",
+    "origin_asn": 64521,
+    "as_path": [
+      65001,
+      65002,
+      64521
+    ],
+    "label": "HIJACK",
+    "attack_type": "ORIGIN_MISMATCH",
+    "note": "Legit ASN=206996, hijacker ASN=64521"
+  },
+  {
+    "timestamp": "2024-06-01T00:38:27",
+    "prefix": "114.115.224.0/19",
+    "origin_asn": 55990,
+    "as_path": [
+      65100,
+      65101,
+      55990
+    ],
+    "label": "LEGIT",
+    "attack_type": null,
+    "note": "Normal valid announcement"
+  },
+  {
+    "timestamp": "2024-06-01T00:51:24",
+    "prefix": "182.148.96.0/21",
+    "origin_asn": 4809,
+    "as_path": [
+      65200,
+      4809
+    ],
+    "label": "LEGIT",
+    "attack_type": null,
+    "note": "Anycast \u2014 multiple ASNs serving same prefix (edge case)"
+  },
+  {
+    "timestamp": "2024-06-01T00:28:17",
+    "prefix": "2403:7100::/48",
+    "origin_asn": 132220,
+    "as_path": [
+      65100,
+      65101,
+      132220
+    ],
+    "label": "LEGIT",
+    "attack_type": null,
+    "note": "Normal valid announcement"
+  },
+  {
+    "timestamp": "2024-06-01T00:53:03",
+    "prefix": "2001:559:43c::/48",
+    "origin_asn": 7015,
+    "as_path": [
+      65200,
+      7015
+    ],
+    "label": "LEGIT",
+    "attack_type": null,
+    "note": "Anycast \u2014 multiple ASNs serving same prefix (edge case)"
+  },
+  {
+    "timestamp": "2024-06-01T00:40:26",
+    "prefix": "84.75.159.0/24",
+    "origin_asn": 209526,
+    "as_path": [
+      65100,
+      65101,
+      209526
+    ],
+    "label": "LEGIT",
+    "attack_type": null,
+    "note": "Normal valid announcement"
+  },
+  {
+    "timestamp": "2024-06-01T00:44:46",
+    "prefix": "81.29.192.0/19",
+    "origin_asn": 15830,
+    "as_path": [
+      65100,
+      65101,
+      15830
+    ],
+    "label": "LEGIT",
+    "attack_type": null,
+    "note": "Normal valid announcement"
+  },
+  {
+    "timestamp": "2024-06-01T00:46:44",
+    "prefix": "2001:579:6098::/46",
+    "origin_asn": 22773,
+    "as_path": [
+      65100,
+      65101,
+      22773
+    ],
+    "label": "LEGIT",
+    "attack_type": null,
+    "note": "Normal valid announcement"
+  },
+  {
+    "timestamp": "2024-06-01T00:37:36",
+    "prefix": "2409:8a30:6a00::/40",
+    "origin_asn": 9808,
+    "as_path": [
+      65100,
+      65101,
+      9808
+    ],
+    "label": "LEGIT",
+    "attack_type": null,
+    "note": "Normal valid announcement"
+  },
+  {
+    "timestamp": "2024-06-01T00:54:22",
+    "prefix": "217.19.26.0/24",
+    "origin_asn": 62240,
+    "as_path": [
+      65200,
+      62240
+    ],
+    "label": "LEGIT",
+    "attack_type": null,
+    "note": "Anycast \u2014 multiple ASNs serving same prefix (edge case)"
+  },
+  {
+    "timestamp": "2024-06-01T00:11:27",
+    "prefix": "240e:258::/30",
+    "origin_asn": 64542,
+    "as_path": [
+      65001,
+      65002,
+      64542
+    ],
+    "label": "HIJACK",
+    "attack_type": "ORIGIN_MISMATCH",
+    "note": "Legit ASN=4134, hijacker ASN=64542"
+  },
+  {
+    "timestamp": "2024-06-01T00:06:57",
+    "prefix": "117.183.220.0/22",
+    "origin_asn": 64518,
+    "as_path": [
+      65001,
+      65002,
+      64518
+    ],
+    "label": "HIJACK",
+    "attack_type": "ORIGIN_MISMATCH",
+    "note": "Legit ASN=9808, hijacker ASN=64518"
+  },
+  {
+    "timestamp": "2024-06-01T00:51:00",
+    "prefix": "2605:f00::/32",
+    "origin_asn": 16433,
+    "as_path": [
+      65100,
+      65101,
+      16433
+    ],
+    "label": "LEGIT",
+    "attack_type": null,
+    "note": "Normal valid announcement"
+  },
+  {
+    "timestamp": "2024-06-01T00:04:12",
+    "prefix": "183.220.146.0/24",
+    "origin_asn": 64528,
+    "as_path": [
+      65001,
+      65002,
+      64528
+    ],
+    "label": "HIJACK",
+    "attack_type": "ORIGIN_MISMATCH",
+    "note": "Legit ASN=139080, hijacker ASN=64528"
+  },
+  {
+    "timestamp": "2024-06-01T00:08:38",
+    "prefix": "46.252.16.0/20",
+    "origin_asn": 64525,
+    "as_path": [
+      65001,
+      65002,
+      64525
+    ],
+    "label": "HIJACK",
+    "attack_type": "ORIGIN_MISMATCH",
+    "note": "Legit ASN=21499, hijacker ASN=64525"
+  },
+  {
+    "timestamp": "2024-06-01T00:09:26",
+    "prefix": "69.82.0.0/15",
+    "origin_asn": 64529,
+    "as_path": [
+      65001,
+      65002,
+      64529
+    ],
+    "label": "HIJACK",
+    "attack_type": "ORIGIN_MISMATCH",
+    "note": "Legit ASN=6167, hijacker ASN=64529"
+  },
+  {
+    "timestamp": "2024-06-01T00:48:02",
+    "prefix": "2409:8a30:6a00::/40",
+    "origin_asn": 9808,
+    "as_path": [
+      65100,
+      65101,
+      9808
+    ],
+    "label": "LEGIT",
+    "attack_type": null,
+    "note": "Normal valid announcement"
+  },
+  {
+    "timestamp": "2024-06-01T00:09:51",
+    "prefix": "64.249.0.0/18",
+    "origin_asn": 64571,
+    "as_path": [
+      65001,
+      65002,
+      64571
+    ],
+    "label": "HIJACK",
+    "attack_type": "ORIGIN_MISMATCH",
+    "note": "Legit ASN=8881, hijacker ASN=64571"
+  },
+  {
+    "timestamp": "2024-06-01T00:16:10",
+    "prefix": "117.136.70.128/25",
+    "origin_asn": 64547,
+    "as_path": [
+      65010,
+      64547
+    ],
+    "label": "HIJACK",
+    "attack_type": "SUBPREFIX_HIJACK",
+    "note": "Parent=117.136.70.0/24, legit ASN=9808"
+  },
+  {
+    "timestamp": "2024-06-01T00:24:40",
+    "prefix": "45.117.1.0/25",
+    "origin_asn": 64561,
+    "as_path": [
+      65010,
+      64561
+    ],
+    "label": "HIJACK",
+    "attack_type": "SUBPREFIX_HIJACK",
+    "note": "Parent=45.117.1.0/24, legit ASN=135817"
+  },
+  {
+    "timestamp": "2024-06-01T00:49:39",
+    "prefix": "190.112.224.0/19",
+    "origin_asn": 52233,
+    "as_path": [
+      65100,
+      65101,
+      52233
+    ],
+    "label": "LEGIT",
+    "attack_type": null,
+    "note": "Normal valid announcement"
+  },
+  {
+    "timestamp": "2024-06-01T00:11:58",
+    "prefix": "208.96.129.0/24",
+    "origin_asn": 64573,
+    "as_path": [
+      65001,
+      65002,
+      64573
+    ],
+    "label": "HIJACK",
+    "attack_type": "ORIGIN_MISMATCH",
+    "note": "Legit ASN=52501, hijacker ASN=64573"
+  },
+  {
+    "timestamp": "2024-06-01T00:48:32",
+    "prefix": "185.233.166.0/24",
+    "origin_asn": 398256,
+    "as_path": [
+      65100,
+      65101,
+      398256
+    ],
+    "label": "LEGIT",
+    "attack_type": null,
+    "note": "Normal valid announcement"
+  },
+  {
+    "timestamp": "2024-06-01T00:26:02",
+    "prefix": "192.68.126.30/32",
+    "origin_asn": 64576,
+    "as_path": [
+      65010,
+      64576
+    ],
+    "label": "HIJACK",
+    "attack_type": "SUBPREFIX_HIJACK",
+    "note": "Parent=192.68.126.30/32, legit ASN=36620"
+  },
+  {
+    "timestamp": "2024-06-01T00:42:40",
+    "prefix": "117.149.128.0/22",
+    "origin_asn": 56041,
+    "as_path": [
+      65100,
+      65101,
+      56041
+    ],
+    "label": "LEGIT",
+    "attack_type": null,
+    "note": "Normal valid announcement"
+  },
+  {
+    "timestamp": "2024-06-01T00:12:21",
+    "prefix": "198.84.110.0/24",
+    "origin_asn": 64533,
+    "as_path": [
+      65001,
+      65002,
+      64533
+    ],
+    "label": "HIJACK",
+    "attack_type": "ORIGIN_MISMATCH",
+    "note": "Legit ASN=36352, hijacker ASN=64533"
+  },
+  {
+    "timestamp": "2024-06-01T00:18:39",
+    "prefix": "80.82.64.0/25",
+    "origin_asn": 64551,
+    "as_path": [
+      65010,
+      64551
+    ],
+    "label": "HIJACK",
+    "attack_type": "SUBPREFIX_HIJACK",
+    "note": "Parent=80.82.64.0/24, legit ASN=202425"
+  },
+  {
+    "timestamp": "2024-06-01T00:41:21",
+    "prefix": "183.7.176.0/21",
+    "origin_asn": 140308,
+    "as_path": [
+      65100,
+      65101,
+      140308
+    ],
+    "label": "LEGIT",
+    "attack_type": null,
+    "note": "Normal valid announcement"
+  },
+  {
+    "timestamp": "2024-06-01T00:16:52",
+    "prefix": "162.251.120.0/23",
+    "origin_asn": 64593,
+    "as_path": [
+      65010,
+      64593
+    ],
+    "label": "HIJACK",
+    "attack_type": "SUBPREFIX_HIJACK",
+    "note": "Parent=162.251.120.0/22, legit ASN=64236"
+  },
+  {
+    "timestamp": "2024-06-01T00:13:22",
+    "prefix": "2602:faaf:2::/48",
+    "origin_asn": 64570,
+    "as_path": [
+      65001,
+      65002,
+      64570
+    ],
+    "label": "HIJACK",
+    "attack_type": "ORIGIN_MISMATCH",
+    "note": "Legit ASN=49585, hijacker ASN=64570"
+  },
+  {
+    "timestamp": "2024-06-01T00:20:29",
+    "prefix": "117.136.70.128/25",
+    "origin_asn": 64597,
+    "as_path": [
+      65010,
+      64597
+    ],
+    "label": "HIJACK",
+    "attack_type": "SUBPREFIX_HIJACK",
+    "note": "Parent=117.136.70.0/24, legit ASN=9808"
+  },
+  {
+    "timestamp": "2024-06-01T00:22:54",
+    "prefix": "194.170.72.128/25",
+    "origin_asn": 64515,
+    "as_path": [
+      65010,
+      64515
+    ],
+    "label": "HIJACK",
+    "attack_type": "SUBPREFIX_HIJACK",
+    "note": "Parent=194.170.72.0/24, legit ASN=5384"
+  },
+  {
+    "timestamp": "2024-06-01T00:50:04",
+    "prefix": "68.47.238.0/23",
+    "origin_asn": 22909,
+    "as_path": [
+      65100,
+      65101,
+      22909
+    ],
+    "label": "LEGIT",
+    "attack_type": null,
+    "note": "Normal valid announcement"
+  },
+  {
+    "timestamp": "2024-06-01T00:09:08",
+    "prefix": "23.227.57.0/24",
+    "origin_asn": 64580,
+    "as_path": [
+      65001,
+      65002,
+      64580
+    ],
+    "label": "HIJACK",
+    "attack_type": "ORIGIN_MISMATCH",
+    "note": "Legit ASN=396982, hijacker ASN=64580"
+  },
+  {
+    "timestamp": "2024-06-01T00:54:45",
+    "prefix": "138.94.80.0/24",
+    "origin_asn": 264088,
+    "as_path": [
+      65200,
+      264088
+    ],
+    "label": "LEGIT",
+    "attack_type": null,
+    "note": "Anycast \u2014 multiple ASNs serving same prefix (edge case)"
+  },
+  {
+    "timestamp": "2024-06-01T00:14:45",
+    "prefix": "180.129.36.128/25",
+    "origin_asn": 64596,
+    "as_path": [
+      65010,
+      64596
+    ],
+    "label": "HIJACK",
+    "attack_type": "SUBPREFIX_HIJACK",
+    "note": "Parent=180.129.36.0/24, legit ASN=4773"
+  },
+  {
+    "timestamp": "2024-06-01T00:15:57",
+    "prefix": "2806:370:8068::/45",
+    "origin_asn": 64576,
+    "as_path": [
+      65010,
+      64576
+    ],
+    "label": "HIJACK",
+    "attack_type": "SUBPREFIX_HIJACK",
+    "note": "Parent=2806:370:8060::/44, legit ASN=28403"
+  },
+  {
+    "timestamp": "2024-06-01T00:20:39",
+    "prefix": "2a04:4e40:f430::/45",
+    "origin_asn": 64546,
+    "as_path": [
+      65010,
+      64546
+    ],
+    "label": "HIJACK",
+    "attack_type": "SUBPREFIX_HIJACK",
+    "note": "Parent=2a04:4e40:f430::/44, legit ASN=54113"
+  },
+  {
+    "timestamp": "2024-06-01T00:06:31",
+    "prefix": "222.126.216.0/24",
+    "origin_asn": 64564,
+    "as_path": [
+      65001,
+      65002,
+      64564
+    ],
+    "label": "HIJACK",
+    "attack_type": "ORIGIN_MISMATCH",
+    "note": "Legit ASN=37965, hijacker ASN=64564"
+  },
+  {
+    "timestamp": "2024-06-01T00:01:05",
+    "prefix": "44.216.184.0/22",
+    "origin_asn": 64587,
+    "as_path": [
+      65001,
+      65002,
+      64587
+    ],
+    "label": "HIJACK",
+    "attack_type": "ORIGIN_MISMATCH",
+    "note": "Legit ASN=14618, hijacker ASN=64587"
+  },
+  {
+    "timestamp": "2024-06-01T00:32:02",
+    "prefix": "91.229.230.0/23",
+    "origin_asn": 198949,
+    "as_path": [
+      65100,
+      65101,
+      198949
+    ],
+    "label": "LEGIT",
+    "attack_type": null,
+    "note": "Normal valid announcement"
+  },
+  {
+    "timestamp": "2024-06-01T00:38:32",
+    "prefix": "2a0e:b107:2430::/48",
+    "origin_asn": 211194,
+    "as_path": [
+      65100,
+      65101,
+      211194
+    ],
+    "label": "LEGIT",
+    "attack_type": null,
+    "note": "Normal valid announcement"
+  },
+  {
+    "timestamp": "2024-06-01T00:34:00",
+    "prefix": "194.170.72.0/24",
+    "origin_asn": 5384,
+    "as_path": [
+      65100,
+      65101,
+      5384
+    ],
+    "label": "LEGIT",
+    "attack_type": null,
+    "note": "Normal valid announcement"
+  },
+  {
+    "timestamp": "2024-06-01T00:54:04",
+    "prefix": "184.170.67.0/24",
+    "origin_asn": 4922,
+    "as_path": [
+      65200,
+      4922
+    ],
+    "label": "LEGIT",
+    "attack_type": null,
+    "note": "Anycast \u2014 multiple ASNs serving same prefix (edge case)"
+  },
+  {
+    "timestamp": "2024-06-01T00:51:32",
+    "prefix": "2407:bb00::/36",
+    "origin_asn": 45625,
+    "as_path": [
+      65200,
+      45625
+    ],
+    "label": "LEGIT",
+    "attack_type": null,
+    "note": "Anycast \u2014 multiple ASNs serving same prefix (edge case)"
+  },
+  {
+    "timestamp": "2024-06-01T00:28:54",
+    "prefix": "194.76.31.0/24",
+    "origin_asn": 3320,
+    "as_path": [
+      65100,
+      65101,
+      3320
+    ],
+    "label": "LEGIT",
+    "attack_type": null,
+    "note": "Normal valid announcement"
+  },
+  {
+    "timestamp": "2024-06-01T00:17:14",
+    "prefix": "136.162.148.0/23",
+    "origin_asn": 64568,
+    "as_path": [
+      65010,
+      64568
+    ],
+    "label": "HIJACK",
+    "attack_type": "SUBPREFIX_HIJACK",
+    "note": "Parent=136.162.148.0/22, legit ASN=7029"
+  },
+  {
+    "timestamp": "2024-06-01T00:05:54",
+    "prefix": "194.76.31.0/24",
+    "origin_asn": 64596,
+    "as_path": [
+      65001,
+      65002,
+      64596
+    ],
+    "label": "HIJACK",
+    "attack_type": "ORIGIN_MISMATCH",
+    "note": "Legit ASN=3320, hijacker ASN=64596"
+  },
+  {
+    "timestamp": "2024-06-01T00:13:49",
+    "prefix": "83.139.244.0/23",
+    "origin_asn": 64566,
+    "as_path": [
+      65001,
+      65002,
+      64566
+    ],
+    "label": "HIJACK",
+    "attack_type": "ORIGIN_MISMATCH",
+    "note": "Legit ASN=1299, hijacker ASN=64566"
+  },
+  {
+    "timestamp": "2024-06-01T00:37:49",
+    "prefix": "2.158.0.0/16",
+    "origin_asn": 24608,
+    "as_path": [
+      65100,
+      65101,
+      24608
+    ],
+    "label": "LEGIT",
+    "attack_type": null,
+    "note": "Normal valid announcement"
+  },
+  {
+    "timestamp": "2024-06-01T00:00:38",
+    "prefix": "36.213.97.0/24",
+    "origin_asn": 64540,
+    "as_path": [
+      65001,
+      65002,
+      64540
+    ],
+    "label": "HIJACK",
+    "attack_type": "ORIGIN_MISMATCH",
+    "note": "Legit ASN=56046, hijacker ASN=64540"
+  },
+  {
+    "timestamp": "2024-06-01T00:41:11",
+    "prefix": "94.183.205.0/24",
+    "origin_asn": 213915,
+    "as_path": [
+      65100,
+      65101,
+      213915
+    ],
+    "label": "LEGIT",
+    "attack_type": null,
+    "note": "Normal valid announcement"
+  },
+  {
+    "timestamp": "2024-06-01T00:19:16",
+    "prefix": "2001:579:609a::/47",
+    "origin_asn": 64583,
+    "as_path": [
+      65010,
+      64583
+    ],
+    "label": "HIJACK",
+    "attack_type": "SUBPREFIX_HIJACK",
+    "note": "Parent=2001:579:6098::/46, legit ASN=22773"
+  },
+  {
+    "timestamp": "2024-06-01T00:45:48",
+    "prefix": "2400:cb00:ef00::/40",
+    "origin_asn": 13335,
+    "as_path": [
+      65100,
+      65101,
+      13335
+    ],
+    "label": "LEGIT",
+    "attack_type": null,
+    "note": "Normal valid announcement"
+  },
+  {
+    "timestamp": "2024-06-01T00:52:14",
+    "prefix": "194.170.72.0/24",
+    "origin_asn": 5384,
+    "as_path": [
+      65200,
+      5384
+    ],
+    "label": "LEGIT",
+    "attack_type": null,
+    "note": "Anycast \u2014 multiple ASNs serving same prefix (edge case)"
+  },
+  {
+    "timestamp": "2024-06-01T00:18:23",
+    "prefix": "92.153.0.0/17",
+    "origin_asn": 64567,
+    "as_path": [
+      65010,
+      64567
+    ],
+    "label": "HIJACK",
+    "attack_type": "SUBPREFIX_HIJACK",
+    "note": "Parent=92.153.0.0/16, legit ASN=3215"
+  },
+  {
+    "timestamp": "2024-06-01T00:24:46",
+    "prefix": "208.96.129.0/25",
+    "origin_asn": 64544,
+    "as_path": [
+      65010,
+      64544
+    ],
+    "label": "HIJACK",
+    "attack_type": "SUBPREFIX_HIJACK",
+    "note": "Parent=208.96.129.0/24, legit ASN=52501"
+  },
+  {
+    "timestamp": "2024-06-01T00:15:26",
+    "prefix": "154.198.170.128/25",
+    "origin_asn": 64548,
+    "as_path": [
+      65010,
+      64548
+    ],
+    "label": "HIJACK",
+    "attack_type": "SUBPREFIX_HIJACK",
+    "note": "Parent=154.198.170.0/24, legit ASN=17561"
+  },
+  {
+    "timestamp": "2024-06-01T00:35:08",
+    "prefix": "2001:559:43c::/48",
+    "origin_asn": 7015,
+    "as_path": [
+      65100,
+      65101,
+      7015
+    ],
+    "label": "LEGIT",
+    "attack_type": null,
+    "note": "Normal valid announcement"
+  },
+  {
+    "timestamp": "2024-06-01T00:13:08",
+    "prefix": "217.30.160.0/20",
+    "origin_asn": 64545,
+    "as_path": [
+      65001,
+      65002,
+      64545
+    ],
+    "label": "HIJACK",
+    "attack_type": "ORIGIN_MISMATCH",
+    "note": "Legit ASN=39032, hijacker ASN=64545"
+  },
+  {
+    "timestamp": "2024-06-01T00:22:46",
+    "prefix": "154.90.24.128/25",
+    "origin_asn": 64598,
+    "as_path": [
+      65010,
+      64598
+    ],
+    "label": "HIJACK",
+    "attack_type": "SUBPREFIX_HIJACK",
+    "note": "Parent=154.90.24.0/24, legit ASN=22773"
+  },
+  {
+    "timestamp": "2024-06-01T00:35:58",
+    "prefix": "2a0e:b107:2430::/48",
+    "origin_asn": 211194,
+    "as_path": [
+      65100,
+      65101,
+      211194
+    ],
+    "label": "LEGIT",
+    "attack_type": null,
+    "note": "Normal valid announcement"
+  },
+  {
+    "timestamp": "2024-06-01T00:02:00",
+    "prefix": "46.252.16.0/20",
+    "origin_asn": 64521,
+    "as_path": [
+      65001,
+      65002,
+      64521
+    ],
+    "label": "HIJACK",
+    "attack_type": "ORIGIN_MISMATCH",
+    "note": "Legit ASN=21499, hijacker ASN=64521"
+  },
+  {
+    "timestamp": "2024-06-01T00:23:25",
+    "prefix": "117.149.130.0/23",
+    "origin_asn": 64516,
+    "as_path": [
+      65010,
+      64516
+    ],
+    "label": "HIJACK",
+    "attack_type": "SUBPREFIX_HIJACK",
+    "note": "Parent=117.149.128.0/22, legit ASN=56041"
+  },
+  {
+    "timestamp": "2024-06-01T00:26:28",
+    "prefix": "111.92.171.128/25",
+    "origin_asn": 64582,
+    "as_path": [
+      65010,
+      64582
+    ],
+    "label": "HIJACK",
+    "attack_type": "SUBPREFIX_HIJACK",
+    "note": "Parent=111.92.171.0/24, legit ASN=23671"
+  },
+  {
+    "timestamp": "2024-06-01T00:41:49",
+    "prefix": "202.188.0.0/16",
+    "origin_asn": 4788,
+    "as_path": [
+      65100,
+      65101,
+      4788
+    ],
+    "label": "LEGIT",
+    "attack_type": null,
+    "note": "Normal valid announcement"
+  },
+  {
+    "timestamp": "2024-06-01T00:33:00",
+    "prefix": "2001:c38:9151::/48",
+    "origin_asn": 134565,
+    "as_path": [
+      65100,
+      65101,
+      134565
+    ],
+    "label": "LEGIT",
+    "attack_type": null,
+    "note": "Normal valid announcement"
+  },
+  {
+    "timestamp": "2024-06-01T00:50:54",
+    "prefix": "2600:9000:3430::/45",
+    "origin_asn": 16509,
+    "as_path": [
+      65100,
+      65101,
+      16509
+    ],
+    "label": "LEGIT",
+    "attack_type": null,
+    "note": "Normal valid announcement"
+  },
+  {
+    "timestamp": "2024-06-01T00:32:19",
+    "prefix": "151.237.126.0/24",
+    "origin_asn": 50186,
+    "as_path": [
+      65100,
+      65101,
+      50186
+    ],
+    "label": "LEGIT",
+    "attack_type": null,
+    "note": "Normal valid announcement"
+  },
+  {
+    "timestamp": "2024-06-01T00:19:26",
+    "prefix": "2a02:2590::/33",
+    "origin_asn": 64542,
+    "as_path": [
+      65010,
+      64542
+    ],
+    "label": "HIJACK",
+    "attack_type": "SUBPREFIX_HIJACK",
+    "note": "Parent=2a02:2590::/32, legit ASN=51615"
+  },
+  {
+    "timestamp": "2024-06-01T00:06:12",
+    "prefix": "178.45.16.0/20",
+    "origin_asn": 64557,
+    "as_path": [
+      65001,
+      65002,
+      64557
+    ],
+    "label": "HIJACK",
+    "attack_type": "ORIGIN_MISMATCH",
+    "note": "Legit ASN=12389, hijacker ASN=64557"
+  },
+  {
+    "timestamp": "2024-06-01T00:17:19",
+    "prefix": "240e:108:1183:8000::/49",
+    "origin_asn": 64583,
+    "as_path": [
+      65010,
+      64583
+    ],
+    "label": "HIJACK",
+    "attack_type": "SUBPREFIX_HIJACK",
+    "note": "Parent=240e:108:1183::/48, legit ASN=133775"
+  },
+  {
+    "timestamp": "2024-06-01T00:22:24",
+    "prefix": "92.14.0.0/15",
+    "origin_asn": 64556,
+    "as_path": [
+      65010,
+      64556
+    ],
+    "label": "HIJACK",
+    "attack_type": "SUBPREFIX_HIJACK",
+    "note": "Parent=92.12.0.0/14, legit ASN=19905"
+  },
+  {
+    "timestamp": "2024-06-01T00:18:50",
+    "prefix": "188.132.218.0/25",
+    "origin_asn": 64557,
+    "as_path": [
+      65010,
+      64557
+    ],
+    "label": "HIJACK",
+    "attack_type": "SUBPREFIX_HIJACK",
+    "note": "Parent=188.132.218.0/24, legit ASN=34984"
+  },
+  {
+    "timestamp": "2024-06-01T00:43:43",
+    "prefix": "49.244.48.0/23",
+    "origin_asn": 23752,
+    "as_path": [
+      65100,
+      65101,
+      23752
+    ],
+    "label": "LEGIT",
+    "attack_type": null,
+    "note": "Normal valid announcement"
+  },
+  {
+    "timestamp": "2024-06-01T00:56:24",
+    "prefix": "2806:370:8060::/44",
+    "origin_asn": 28403,
+    "as_path": [
+      65200,
+      28403
+    ],
+    "label": "LEGIT",
+    "attack_type": null,
+    "note": "Anycast \u2014 multiple ASNs serving same prefix (edge case)"
+  },
+  {
+    "timestamp": "2024-06-01T00:33:14",
+    "prefix": "117.88.33.0/24",
+    "origin_asn": 134756,
+    "as_path": [
+      65100,
+      65101,
+      134756
+    ],
+    "label": "LEGIT",
+    "attack_type": null,
+    "note": "Normal valid announcement"
+  },
+  {
+    "timestamp": "2024-06-01T00:34:40",
+    "prefix": "104.145.68.0/24",
+    "origin_asn": 23473,
+    "as_path": [
+      65100,
+      65101,
+      23473
+    ],
+    "label": "LEGIT",
+    "attack_type": null,
+    "note": "Normal valid announcement"
+  },
+  {
+    "timestamp": "2024-06-01T00:39:04",
+    "prefix": "49.15.246.0/24",
+    "origin_asn": 45271,
+    "as_path": [
+      65100,
+      65101,
+      45271
+    ],
+    "label": "LEGIT",
+    "attack_type": null,
+    "note": "Normal valid announcement"
+  },
+  {
+    "timestamp": "2024-06-01T00:45:13",
+    "prefix": "78.130.205.0/24",
+    "origin_asn": 9070,
+    "as_path": [
+      65100,
+      65101,
+      9070
+    ],
+    "label": "LEGIT",
+    "attack_type": null,
+    "note": "Normal valid announcement"
+  },
+  {
+    "timestamp": "2024-06-01T00:18:58",
+    "prefix": "68.192.0.0/14",
+    "origin_asn": 64597,
+    "as_path": [
+      65010,
+      64597
+    ],
+    "label": "HIJACK",
+    "attack_type": "SUBPREFIX_HIJACK",
+    "note": "Parent=68.192.0.0/13, legit ASN=6128"
+  },
+  {
+    "timestamp": "2024-06-01T00:47:18",
+    "prefix": "92.42.47.0/24",
+    "origin_asn": 206996,
+    "as_path": [
+      65100,
+      65101,
+      206996
+    ],
+    "label": "LEGIT",
+    "attack_type": null,
+    "note": "Normal valid announcement"
+  },
+  {
+    "timestamp": "2024-06-01T00:38:07",
+    "prefix": "2a05:dfc1:8e95::/48",
+    "origin_asn": 58339,
+    "as_path": [
+      65100,
+      65101,
+      58339
+    ],
+    "label": "LEGIT",
+    "attack_type": null,
+    "note": "Normal valid announcement"
+  },
+  {
+    "timestamp": "2024-06-01T00:12:38",
+    "prefix": "2402:f1c0:40e4::/48",
+    "origin_asn": 64512,
+    "as_path": [
+      65001,
+      65002,
+      64512
+    ],
+    "label": "HIJACK",
+    "attack_type": "ORIGIN_MISMATCH",
+    "note": "Legit ASN=137868, hijacker ASN=64512"
+  },
+  {
+    "timestamp": "2024-06-01T00:31:05",
+    "prefix": "208.96.129.0/24",
+    "origin_asn": 52501,
+    "as_path": [
+      65100,
+      65101,
+      52501
+    ],
+    "label": "LEGIT",
+    "attack_type": null,
+    "note": "Normal valid announcement"
+  },
+  {
+    "timestamp": "2024-06-01T00:11:17",
+    "prefix": "117.143.152.0/22",
+    "origin_asn": 64523,
+    "as_path": [
+      65001,
+      65002,
+      64523
+    ],
+    "label": "HIJACK",
+    "attack_type": "ORIGIN_MISMATCH",
+    "note": "Legit ASN=24400, hijacker ASN=64523"
+  },
+  {
+    "timestamp": "2024-06-01T00:32:44",
+    "prefix": "209.174.128.0/17",
+    "origin_asn": 6325,
+    "as_path": [
+      65100,
+      65101,
+      6325
+    ],
+    "label": "LEGIT",
+    "attack_type": null,
+    "note": "Normal valid announcement"
+  },
+  {
+    "timestamp": "2024-06-01T00:46:18",
+    "prefix": "194.4.68.0/22",
+    "origin_asn": 56899,
+    "as_path": [
+      65100,
+      65101,
+      56899
+    ],
+    "label": "LEGIT",
+    "attack_type": null,
+    "note": "Normal valid announcement"
+  },
+  {
+    "timestamp": "2024-06-01T00:25:25",
+    "prefix": "186.243.162.0/25",
+    "origin_asn": 64558,
+    "as_path": [
+      65010,
+      64558
+    ],
+    "label": "HIJACK",
+    "attack_type": "SUBPREFIX_HIJACK",
+    "note": "Parent=186.243.162.0/24, legit ASN=44559"
+  },
+  {
+    "timestamp": "2024-06-01T00:30:38",
+    "prefix": "84.90.228.0/23",
+    "origin_asn": 13156,
+    "as_path": [
+      65100,
+      65101,
+      13156
+    ],
+    "label": "LEGIT",
+    "attack_type": null,
+    "note": "Normal valid announcement"
+  },
+  {
+    "timestamp": "2024-06-01T00:07:56",
+    "prefix": "31.77.106.0/24",
+    "origin_asn": 64563,
+    "as_path": [
+      65001,
+      65002,
+      64563
+    ],
+    "label": "HIJACK",
+    "attack_type": "ORIGIN_MISMATCH",
+    "note": "Legit ASN=215730, hijacker ASN=64563"
+  },
+  {
+    "timestamp": "2024-06-01T00:35:36",
+    "prefix": "94.78.120.0/24",
+    "origin_asn": 44558,
+    "as_path": [
+      65100,
+      65101,
+      44558
+    ],
+    "label": "LEGIT",
+    "attack_type": null,
+    "note": "Normal valid announcement"
+  },
+  {
+    "timestamp": "2024-06-01T00:29:29",
+    "prefix": "154.198.170.0/24",
+    "origin_asn": 17561,
+    "as_path": [
+      65100,
+      65101,
+      17561
+    ],
+    "label": "LEGIT",
+    "attack_type": null,
+    "note": "Normal valid announcement"
+  },
+  {
+    "timestamp": "2024-06-01T00:00:43",
+    "prefix": "168.196.244.0/24",
+    "origin_asn": 64555,
+    "as_path": [
+      65001,
+      65002,
+      64555
+    ],
+    "label": "HIJACK",
+    "attack_type": "ORIGIN_MISMATCH",
+    "note": "Legit ASN=263801, hijacker ASN=64555"
+  },
+  {
+    "timestamp": "2024-06-01T00:23:53",
+    "prefix": "2602:faaf:2:8000::/49",
+    "origin_asn": 64556,
+    "as_path": [
+      65010,
+      64556
+    ],
+    "label": "HIJACK",
+    "attack_type": "SUBPREFIX_HIJACK",
+    "note": "Parent=2602:faaf:2::/48, legit ASN=49585"
+  },
+  {
+    "timestamp": "2024-06-01T00:47:03",
+    "prefix": "2001:16a2:c009::/48",
+    "origin_asn": 39891,
+    "as_path": [
+      65100,
+      65101,
+      39891
+    ],
+    "label": "LEGIT",
+    "attack_type": null,
+    "note": "Normal valid announcement"
+  },
+  {
+    "timestamp": "2024-06-01T00:37:04",
+    "prefix": "45.117.1.0/24",
+    "origin_asn": 135817,
+    "as_path": [
+      65100,
+      65101,
+      135817
+    ],
+    "label": "LEGIT",
+    "attack_type": null,
+    "note": "Normal valid announcement"
+  },
+  {
+    "timestamp": "2024-06-01T00:04:47",
+    "prefix": "64.249.0.0/18",
+    "origin_asn": 64572,
+    "as_path": [
+      65001,
+      65002,
+      64572
+    ],
+    "label": "HIJACK",
+    "attack_type": "ORIGIN_MISMATCH",
+    "note": "Legit ASN=8881, hijacker ASN=64572"
+  },
+  {
+    "timestamp": "2024-06-01T00:25:48",
+    "prefix": "46.252.24.0/21",
+    "origin_asn": 64596,
+    "as_path": [
+      65010,
+      64596
+    ],
+    "label": "HIJACK",
+    "attack_type": "SUBPREFIX_HIJACK",
+    "note": "Parent=46.252.16.0/20, legit ASN=21499"
+  },
+  {
+    "timestamp": "2024-06-01T00:48:19",
+    "prefix": "45.194.240.0/24",
+    "origin_asn": 17561,
+    "as_path": [
+      65100,
+      65101,
+      17561
+    ],
+    "label": "LEGIT",
+    "attack_type": null,
+    "note": "Normal valid announcement"
+  },
+  {
+    "timestamp": "2024-06-01T00:30:15",
+    "prefix": "94.182.114.0/23",
+    "origin_asn": 205647,
+    "as_path": [
+      65100,
+      65101,
+      205647
+    ],
+    "label": "LEGIT",
+    "attack_type": null,
+    "note": "Normal valid announcement"
+  },
+  {
+    "timestamp": "2024-06-01T00:38:49",
+    "prefix": "23.231.49.0/24",
+    "origin_asn": 62904,
+    "as_path": [
+      65100,
+      65101,
+      62904
+    ],
+    "label": "LEGIT",
+    "attack_type": null,
+    "note": "Normal valid announcement"
+  },
+  {
+    "timestamp": "2024-06-01T00:24:17",
+    "prefix": "2602:faaf:2:8000::/49",
+    "origin_asn": 64567,
+    "as_path": [
+      65010,
+      64567
+    ],
+    "label": "HIJACK",
+    "attack_type": "SUBPREFIX_HIJACK",
+    "note": "Parent=2602:faaf:2::/48, legit ASN=49585"
+  },
+  {
+    "timestamp": "2024-06-01T00:02:28",
+    "prefix": "94.183.205.0/24",
+    "origin_asn": 64516,
+    "as_path": [
+      65001,
+      65002,
+      64516
+    ],
+    "label": "HIJACK",
+    "attack_type": "ORIGIN_MISMATCH",
+    "note": "Legit ASN=213915, hijacker ASN=64516"
+  },
+  {
+    "timestamp": "2024-06-01T00:41:40",
+    "prefix": "209.174.128.0/17",
+    "origin_asn": 6325,
+    "as_path": [
+      65100,
+      65101,
+      6325
+    ],
+    "label": "LEGIT",
+    "attack_type": null,
+    "note": "Normal valid announcement"
+  },
+  {
+    "timestamp": "2024-06-01T00:08:49",
+    "prefix": "89.125.167.0/24",
+    "origin_asn": 64536,
+    "as_path": [
+      65001,
+      65002,
+      64536
+    ],
+    "label": "HIJACK",
+    "attack_type": "ORIGIN_MISMATCH",
+    "note": "Legit ASN=214159, hijacker ASN=64536"
+  },
+  {
+    "timestamp": "2024-06-01T00:44:14",
+    "prefix": "2c0f:f280::/32",
+    "origin_asn": 37645,
+    "as_path": [
+      65100,
+      65101,
+      37645
+    ],
+    "label": "LEGIT",
+    "attack_type": null,
+    "note": "Normal valid announcement"
+  },
+  {
+    "timestamp": "2024-06-01T00:49:59",
+    "prefix": "212.168.208.0/20",
+    "origin_asn": 6079,
+    "as_path": [
+      65100,
+      65101,
+      6079
+    ],
+    "label": "LEGIT",
+    "attack_type": null,
+    "note": "Normal valid announcement"
+  },
+  {
+    "timestamp": "2024-06-01T00:20:56",
+    "prefix": "2402:f1c0:40e4:8000::/49",
+    "origin_asn": 64540,
+    "as_path": [
+      65010,
+      64540
+    ],
+    "label": "HIJACK",
+    "attack_type": "SUBPREFIX_HIJACK",
+    "note": "Parent=2402:f1c0:40e4::/48, legit ASN=137868"
+  }
+]

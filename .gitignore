@@ -1,0 +1,28 @@
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.env
+venv/
+.venv/
+
+# Large data files (commit only snapshots, not raw MRT dumps)
+data/bgp_feeds/*.bz2
+data/bgp_feeds/*.gz
+data/bgp_feeds/*.mrt
+
+# Model files (reproducible from training)
+models/*.pkl
+
+# Reports (generated)
+reports/pipeline.log
+
+# Keep structure
+!data/bgp_feeds/.gitkeep
+!data/roa_snapshots/.gitkeep
+!data/synthetic/.gitkeep
+!models/.gitkeep

@@ -1,0 +1,212 @@
+2026-10-11 09:54:03,241 [INFO] ============================================================
+2026-10-11 09:54:03,241 [INFO]   Team PRISM — PS-005  |  Fetch & Run
+2026-10-11 09:54:03,241 [INFO] ============================================================
+2026-10-11 09:54:03,366 [INFO] Fetching ROA snapshot from Cloudflare RPKI...
+2026-10-11 09:54:03,366 [INFO] Fetching ROAs from https://rpki.cloudflare.com/api/v1/roas
+2026-10-11 09:54:06,396 [ERROR] ROA fetch failed: 404 Client Error: Not Found for url: https://rpki.cloudflare.com/api/v1/roas
+2026-10-11 09:54:25,187 [INFO] ============================================================
+2026-10-11 09:54:25,188 [INFO]   Team PRISM — PS-005  |  Fetch & Run
+2026-10-11 09:54:25,188 [INFO] ============================================================
+2026-10-11 09:54:25,298 [INFO] Fetching ROA snapshot from Cloudflare RPKI...
+2026-10-11 09:54:25,299 [INFO] Fetching ROAs from https://rpki.cloudflare.com/rpki.json
+2026-10-11 09:54:30,984 [INFO] ROA snapshot cached to data/roa_snapshots/roa_snapshot.json
+2026-10-11 09:54:42,760 [INFO] Loaded 1018636 ROA entries.
+2026-10-11 09:54:42,848 [INFO] ROA table: 1018636 entries loaded
+2026-10-11 09:54:42,848 [INFO] --synthetic-only flag set, skipping MRT download
+2026-10-11 09:54:42,858 [INFO] 
+>>> SYNTHETIC MODE: generating labeled test events
+2026-10-11 09:54:42,862 [INFO] Generated 200 synthetic events (100 hijacks, 100 legit)
+2026-10-11 09:54:42,863 [INFO] Saved synthetic events to data/synthetic/events.json
+2026-10-11 09:54:50,133 [INFO] ============================================================
+2026-10-11 09:54:50,133 [INFO]   Team PRISM — PS-005  |  Fetch & Run
+2026-10-11 09:54:50,133 [INFO] ============================================================
+2026-10-11 09:54:50,237 [INFO] ROA cache found (data/roa_snapshots/roa_snapshot.json) — loading
+2026-10-11 09:55:03,265 [INFO] Loaded 1018636 ROA entries from data/roa_snapshots/roa_snapshot.json
+2026-10-11 09:55:03,320 [INFO] ROA table: 1018636 entries loaded
+2026-10-11 09:55:03,320 [INFO] --synthetic-only flag set, skipping MRT download
+2026-10-11 09:55:03,324 [INFO] 
+>>> SYNTHETIC MODE: generating labeled test events
+2026-10-11 09:55:03,325 [INFO] Loaded 200 existing synthetic events
+2026-10-11 09:55:08,851 [WARNING] [SUBPREFIX_HIJACK] More-specific prefix 123.103.44.0/22 (/22) announced by AS64520, but parent 123.103.40.0/21 is authorized only for AS4808
+2026-10-11 09:55:19,853 [WARNING] [SUBPREFIX_HIJACK] More-specific prefix 78.130.205.0/25 (/25) announced by AS64554, but parent 78.130.128.0/17 is authorized only for AS9070
+2026-10-11 09:55:21,655 [WARNING] [SUBPREFIX_HIJACK] More-specific prefix 203.195.240.0/24 (/24) announced by AS64564, but parent 203.195.128.0/17 is authorized only for AS45090
+2026-10-11 09:55:31,387 [WARNING] [SUBPREFIX_HIJACK] More-specific prefix 83.4.0.0/17 (/17) announced by AS64554, but parent 83.0.0.0/13 is authorized only for AS5617
+2026-10-11 09:55:32,876 [WARNING] [SUBPREFIX_HIJACK] More-specific prefix 221.225.142.128/25 (/25) announced by AS64518, but parent 221.224.0.0/13 is authorized only for AS4134
+2026-10-11 09:55:37,141 [WARNING] [SUBPREFIX_HIJACK] More-specific prefix 194.170.72.0/24 (/24) announced by AS5384, but parent 194.170.0.0/17 is authorized only for AS8966
+2026-10-11 09:55:37,893 [WARNING] [SUBPREFIX_HIJACK] More-specific prefix 39.163.0.0/16 (/16) announced by AS64578, but parent 39.162.0.0/15 is authorized only for AS24445
+2026-10-11 09:55:44,160 [WARNING] [ORIGIN_MISMATCH] Prefix 2001:df6:1e40::/48 announced by AS64564 but ROA authorizes AS154228
+2026-10-11 09:55:45,739 [WARNING] [SUBPREFIX_HIJACK] More-specific prefix 210.48.218.0/25 (/25) announced by AS64563, but parent 210.48.218.0/24 is authorized only for AS45344
+2026-10-11 09:55:55,673 [WARNING] [ORIGIN_MISMATCH] Prefix 240a:aaab::/32 announced by AS64583 but ROA authorizes AS4538
+2026-10-11 09:56:04,384 [WARNING] [ORIGIN_MISMATCH] Prefix 45.156.185.0/24 announced by AS64592 but ROA authorizes AS208161
+2026-10-11 09:56:10,682 [WARNING] [SUBPREFIX_HIJACK] More-specific prefix 2a05:d072:c020::/49 (/49) announced by AS64582, but parent 2a05:d000::/25 is authorized only for AS16509
+2026-10-11 09:56:12,089 [WARNING] [SUBPREFIX_HIJACK] More-specific prefix 195.130.122.0/24 (/24) announced by AS64524, but parent 195.130.64.0/18 is authorized only for AS5408
+2026-10-11 09:56:22,258 [WARNING] [SUBPREFIX_HIJACK] More-specific prefix 81.29.208.0/20 (/20) announced by AS64598, but parent 81.29.192.0/19 is authorized only for AS15830
+2026-10-11 09:56:25,950 [WARNING] [SUBPREFIX_HIJACK] More-specific prefix 103.93.219.128/25 (/25) announced by AS64556, but parent 103.93.216.0/22 is authorized only for AS58895
+2026-10-11 09:56:29,041 [WARNING] [SUBPREFIX_HIJACK] More-specific prefix 39.163.0.0/16 (/16) announced by AS64572, but parent 39.162.0.0/15 is authorized only for AS24445
+2026-10-11 09:56:29,807 [WARNING] [SUBPREFIX_HIJACK] More-specific prefix 45.194.240.0/24 (/24) announced by AS17561, but parent 45.194.128.0/17 is authorized only for AS22516
+2026-10-11 09:56:30,532 [WARNING] [SUBPREFIX_HIJACK] More-specific prefix 67.221.253.0/25 (/25) announced by AS64597, but parent 67.221.253.0/24 is authorized only for AS8038
+2026-10-11 09:56:31,259 [WARNING] [SUBPREFIX_HIJACK] More-specific prefix 64.62.197.0/24 (/24) announced by AS22168, but parent 64.62.128.0/17 is authorized only for AS6939
+2026-10-11 09:56:39,275 [WARNING] [SUBPREFIX_HIJACK] More-specific prefix 221.225.142.0/24 (/24) announced by AS64555, but parent 221.224.0.0/13 is authorized only for AS4134
+2026-10-11 09:56:39,980 [WARNING] [SUBPREFIX_HIJACK] More-specific prefix 45.117.1.128/25 (/25) announced by AS64534, but parent 45.117.1.0/24 is authorized only for AS135817
+2026-10-11 09:56:41,273 [WARNING] [SUBPREFIX_HIJACK] More-specific prefix 180.153.228.0/22 (/22) announced by AS64535, but parent 180.152.0.0/13 is authorized only for AS4812
+2026-10-11 09:56:47,328 [WARNING] [SUBPREFIX_HIJACK] More-specific prefix 2001:16a2:c009::/48 (/48) announced by AS64539, but parent 2001:16a2:c008::/47 is authorized only for AS39891
+2026-10-11 09:56:49,959 [WARNING] [ORIGIN_MISMATCH] Prefix 111.92.171.0/24 announced by AS64524 but ROA authorizes AS23671
+2026-10-11 09:57:10,346 [INFO] ============================================================
+2026-10-11 09:57:10,346 [INFO]   Team PRISM — PS-005  |  Fetch & Run
+2026-10-11 09:57:10,346 [INFO] ============================================================
+2026-10-11 09:57:10,419 [INFO] ROA cache found (data/roa_snapshots/roa_snapshot.json) — loading
+2026-10-11 09:57:23,320 [INFO] Loaded 1018636 ROA entries from data/roa_snapshots/roa_snapshot.json
+2026-10-11 09:57:23,379 [INFO] ROA table: 1018636 entries loaded
+2026-10-11 09:57:23,379 [INFO] --synthetic-only flag set, skipping MRT download
+2026-10-11 09:57:23,385 [INFO] 
+>>> SYNTHETIC MODE: generating labeled test events
+2026-10-11 09:57:23,386 [INFO] Loaded 200 existing synthetic events
+2026-10-11 09:57:23,681 [WARNING] [SUBPREFIX_HIJACK] More-specific prefix 123.103.44.0/22 (/22) announced by AS64520, but parent 123.103.40.0/21 is authorized only for AS4808
+2026-10-11 09:57:23,701 [WARNING] [SUBPREFIX_HIJACK] More-specific prefix 78.130.205.0/25 (/25) announced by AS64554, but parent 78.130.128.0/17 is authorized only for AS9070
+2026-10-11 09:57:23,726 [WARNING] [SUBPREFIX_HIJACK] More-specific prefix 203.195.240.0/24 (/24) announced by AS64564, but parent 203.195.128.0/17 is authorized only for AS45090
+2026-10-11 09:57:24,358 [WARNING] [SUBPREFIX_HIJACK] More-specific prefix 83.4.0.0/17 (/17) announced by AS64554, but parent 83.0.0.0/13 is authorized only for AS5617
+2026-10-11 09:57:24,363 [WARNING] [SUBPREFIX_HIJACK] More-specific prefix 221.225.142.128/25 (/25) announced by AS64518, but parent 221.224.0.0/13 is authorized only for AS4134
+2026-10-11 09:57:24,399 [WARNING] [SUBPREFIX_HIJACK] More-specific prefix 194.170.72.0/24 (/24) announced by AS5384, but parent 194.170.0.0/17 is authorized only for AS8966
+2026-10-11 09:57:24,404 [WARNING] [SUBPREFIX_HIJACK] More-specific prefix 39.163.0.0/16 (/16) announced by AS64578, but parent 39.162.0.0/15 is authorized only for AS24445
+2026-10-11 09:57:24,405 [WARNING] [ORIGIN_MISMATCH] Prefix 2001:df6:1e40::/48 announced by AS64564 but ROA authorizes AS154228
+2026-10-11 09:57:24,411 [WARNING] [SUBPREFIX_HIJACK] More-specific prefix 210.48.218.0/25 (/25) announced by AS64563, but parent 210.48.218.0/24 is authorized only for AS45344
+2026-10-11 09:57:24,430 [WARNING] [ORIGIN_MISMATCH] Prefix 240a:aaab::/32 announced by AS64583 but ROA authorizes AS4538
+2026-10-11 09:57:24,502 [WARNING] [ORIGIN_MISMATCH] Prefix 45.156.185.0/24 announced by AS64592 but ROA authorizes AS208161
+2026-10-11 09:57:24,502 [WARNING] [SUBPREFIX_HIJACK] More-specific prefix 2a05:d072:c020::/49 (/49) announced by AS64582, but parent 2a05:d072:c000::/40 is authorized only for AS16509
+2026-10-11 09:57:24,517 [WARNING] [SUBPREFIX_HIJACK] More-specific prefix 195.130.122.0/24 (/24) announced by AS64524, but parent 195.130.64.0/18 is authorized only for AS5408
+2026-10-11 09:57:24,544 [WARNING] [SUBPREFIX_HIJACK] More-specific prefix 81.29.208.0/20 (/20) announced by AS64598, but parent 81.29.192.0/19 is authorized only for AS15830
+2026-10-11 09:57:24,580 [WARNING] [SUBPREFIX_HIJACK] More-specific prefix 103.93.219.128/25 (/25) announced by AS64556, but parent 103.93.216.0/22 is authorized only for AS58895
+2026-10-11 09:57:24,586 [WARNING] [SUBPREFIX_HIJACK] More-specific prefix 39.163.0.0/16 (/16) announced by AS64572, but parent 39.162.0.0/15 is authorized only for AS24445
+2026-10-11 09:57:24,625 [WARNING] [SUBPREFIX_HIJACK] More-specific prefix 45.194.240.0/24 (/24) announced by AS17561, but parent 45.194.128.0/17 is authorized only for AS22516
+2026-10-11 09:57:24,636 [WARNING] [SUBPREFIX_HIJACK] More-specific prefix 67.221.253.0/25 (/25) announced by AS64597, but parent 67.221.253.0/24 is authorized only for AS8038
+2026-10-11 09:57:24,644 [WARNING] [SUBPREFIX_HIJACK] More-specific prefix 64.62.197.0/24 (/24) announced by AS22168, but parent 64.62.128.0/17 is authorized only for AS6939
+2026-10-11 09:57:24,649 [WARNING] [SUBPREFIX_HIJACK] More-specific prefix 221.225.142.0/24 (/24) announced by AS64555, but parent 221.224.0.0/13 is authorized only for AS4134
+2026-10-11 09:57:24,690 [WARNING] [SUBPREFIX_HIJACK] More-specific prefix 45.117.1.128/25 (/25) announced by AS64534, but parent 45.117.1.0/24 is authorized only for AS135817
+2026-10-11 09:57:24,704 [WARNING] [SUBPREFIX_HIJACK] More-specific prefix 180.153.228.0/22 (/22) announced by AS64535, but parent 180.152.0.0/13 is authorized only for AS4812
+2026-10-11 09:57:24,708 [WARNING] [SUBPREFIX_HIJACK] More-specific prefix 2001:16a2:c009::/48 (/48) announced by AS64539, but parent 2001:16a2:c008::/47 is authorized only for AS39891
+2026-10-11 09:57:24,737 [WARNING] [ORIGIN_MISMATCH] Prefix 111.92.171.0/24 announced by AS64524 but ROA authorizes AS23671
+2026-10-11 09:57:24,749 [WARNING] [SUBPREFIX_HIJACK] More-specific prefix 136.162.150.0/23 (/23) announced by AS64553, but parent 136.162.148.0/22 is authorized only for AS5650
+2026-10-11 09:57:24,750 [WARNING] [SUBPREFIX_HIJACK] More-specific prefix 2600:1f1d:4800::/38 (/38) announced by AS64581, but parent 2600:1f1d:4000::/36 is authorized only for AS14618
+2026-10-11 09:57:24,766 [WARNING] [SUBPREFIX_HIJACK] More-specific prefix 203.105.174.0/24 (/24) announced by AS4755, but parent 203.105.174.0/23 is authorized only for AS6453
+2026-10-11 09:57:24,785 [WARNING] [SUBPREFIX_HIJACK] More-specific prefix 88.213.214.0/24 (/24) announced by AS64564, but parent 88.213.214.0/23 is authorized only for AS61071
+2026-10-11 09:57:24,840 [WARNING] [SUBPREFIX_HIJACK] More-specific prefix 103.93.219.0/25 (/25) announced by AS64597, but parent 103.93.216.0/22 is authorized only for AS58895
+2026-10-11 09:57:24,862 [WARNING] [SUBPREFIX_HIJACK] More-specific prefix 78.130.205.0/24 (/24) announced by AS64541, but parent 78.130.128.0/17 is authorized only for AS9070
+2026-10-11 09:57:24,870 [WARNING] [SUBPREFIX_HIJACK] More-specific prefix 138.16.73.0/25 (/25) announced by AS64521, but parent 138.16.73.0/24 is authorized only for AS44559
+2026-10-11 09:57:24,998 [WARNING] [ORIGIN_MISMATCH] Prefix 46.252.16.0/20 announced by AS64595 but ROA authorizes AS8972
+2026-10-11 09:57:25,019 [WARNING] [SUBPREFIX_HIJACK] More-specific prefix 199.237.96.0/23 (/23) announced by AS13700, but parent 199.236.0.0/14 is authorized only for AS2914
+2026-10-11 09:57:25,023 [WARNING] [SUBPREFIX_HIJACK] More-specific prefix 92.12.0.0/15 (/15) announced by AS64545, but parent 92.12.0.0/14 is authorized only for AS19905
+2026-10-11 09:57:25,046 [WARNING] [SUBPREFIX_HIJACK] More-specific prefix 183.220.146.0/24 (/24) announced by AS139080, but parent 183.220.0.0/16 is authorized only for AS9808
+2026-10-11 09:57:25,074 [WARNING] [SUBPREFIX_HIJACK] More-specific prefix 190.112.224.0/20 (/20) announced by AS64555, but parent 190.112.224.0/19 is authorized only for AS52233
+2026-10-11 09:57:25,104 [WARNING] [SUBPREFIX_HIJACK] More-specific prefix 194.93.60.128/25 (/25) announced by AS64586, but parent 194.93.60.0/24 is authorized only for AS274173
+2026-10-11 09:57:25,107 [WARNING] [SUBPREFIX_HIJACK] More-specific prefix 187.1.137.0/24 (/24) announced by AS64521, but parent 187.1.128.0/20 is authorized only for AS28299
+2026-10-11 09:57:25,110 [WARNING] [SUBPREFIX_HIJACK] More-specific prefix 39.163.0.0/16 (/16) announced by AS64563, but parent 39.162.0.0/15 is authorized only for AS24445
+2026-10-11 09:57:25,237 [WARNING] [SUBPREFIX_HIJACK] More-specific prefix 80.82.64.0/25 (/25) announced by AS64540, but parent 80.82.64.0/24 is authorized only for AS202425
+2026-10-11 09:57:25,245 [WARNING] [ORIGIN_MISMATCH] Prefix 92.12.0.0/14 announced by AS64597 but ROA authorizes AS19905
+2026-10-11 09:57:25,289 [WARNING] [SUBPREFIX_HIJACK] More-specific prefix 203.105.174.0/24 (/24) announced by AS4755, but parent 203.105.174.0/23 is authorized only for AS6453
+2026-10-11 09:57:25,289 [WARNING] [ORIGIN_MISMATCH] Prefix 2c0f:f280::/32 announced by AS64540 but ROA authorizes AS37645
+2026-10-11 09:57:25,333 [WARNING] [ORIGIN_MISMATCH] Prefix 45.233.152.0/22 announced by AS64541 but ROA authorizes AS267328
+2026-10-11 09:57:25,343 [WARNING] [SUBPREFIX_HIJACK] More-specific prefix 117.143.154.0/23 (/23) announced by AS64512, but parent 117.143.0.0/16 is authorized only for AS24400
+2026-10-11 09:57:25,352 [WARNING] [SUBPREFIX_HIJACK] More-specific prefix 180.129.36.0/24 (/24) announced by AS64585, but parent 180.129.0.0/18 is authorized only for AS4773
+2026-10-11 09:57:25,391 [WARNING] [SUBPREFIX_HIJACK] More-specific prefix 185.45.80.0/25 (/25) announced by AS64565, but parent 185.45.80.0/24 is authorized only for AS34545
+2026-10-11 09:57:25,399 [WARNING] [SUBPREFIX_HIJACK] More-specific prefix 117.143.152.0/22 (/22) announced by AS64527, but parent 117.143.0.0/16 is authorized only for AS24400
+2026-10-11 09:57:25,415 [WARNING] [ORIGIN_MISMATCH] Prefix 193.242.209.0/24 announced by AS64581 but ROA authorizes AS208161
+2026-10-11 09:57:25,416 [WARNING] [SUBPREFIX_HIJACK] More-specific prefix 2602:fa80:43::/48 (/48) announced by AS140666, but parent 2602:fa80::/36 is authorized only for AS63139
+2026-10-11 09:57:25,467 [WARNING] [SUBPREFIX_HIJACK] More-specific prefix 2409:8750:ffd2::/48 (/48) announced by AS64518, but parent 2409:8750::/32 is authorized only for AS56047
+2026-10-11 09:57:25,473 [WARNING] [ORIGIN_MISMATCH] Prefix 240e:258::/30 announced by AS64542 but ROA authorizes AS4134
+2026-10-11 09:57:25,480 [WARNING] [SUBPREFIX_HIJACK] More-specific prefix 184.170.67.0/24 (/24) announced by AS64582, but parent 184.170.64.0/20 is authorized only for AS4922
+2026-10-11 09:57:25,491 [WARNING] [SUBPREFIX_HIJACK] More-specific prefix 186.243.162.0/25 (/25) announced by AS64560, but parent 186.243.162.0/24 is authorized only for AS44559
+2026-10-11 09:57:25,500 [WARNING] [ORIGIN_MISMATCH] Prefix 92.42.47.0/24 announced by AS64521 but ROA authorizes AS206996
+2026-10-11 09:57:25,512 [WARNING] [SUBPREFIX_HIJACK] More-specific prefix 182.148.96.0/21 (/21) announced by AS4809, but parent 182.144.0.0/13 is authorized only for AS4134
+2026-10-11 09:57:25,548 [WARNING] [ORIGIN_MISMATCH] Prefix 240e:258::/30 announced by AS64542 but ROA authorizes AS4134
+2026-10-11 09:57:25,560 [WARNING] [SUBPREFIX_HIJACK] More-specific prefix 117.183.220.0/22 (/22) announced by AS64518, but parent 117.183.0.0/16 is authorized only for AS9808
+2026-10-11 09:57:25,568 [WARNING] [SUBPREFIX_HIJACK] More-specific prefix 183.220.146.0/24 (/24) announced by AS64528, but parent 183.220.0.0/16 is authorized only for AS9808
+2026-10-11 09:57:25,580 [WARNING] [ORIGIN_MISMATCH] Prefix 46.252.16.0/20 announced by AS64525 but ROA authorizes AS8972
+2026-10-11 09:57:25,587 [WARNING] [ORIGIN_MISMATCH] Prefix 69.82.0.0/15 announced by AS64529 but ROA authorizes AS6167
+2026-10-11 09:57:25,601 [WARNING] [ORIGIN_MISMATCH] Prefix 64.249.0.0/18 announced by AS64571 but ROA authorizes AS3320
+2026-10-11 09:57:25,608 [WARNING] [SUBPREFIX_HIJACK] More-specific prefix 117.136.70.128/25 (/25) announced by AS64547, but parent 117.136.70.0/24 is authorized only for AS9808
+2026-10-11 09:57:25,630 [WARNING] [SUBPREFIX_HIJACK] More-specific prefix 45.117.1.0/25 (/25) announced by AS64561, but parent 45.117.1.0/24 is authorized only for AS135817
+2026-10-11 09:57:25,640 [WARNING] [SUBPREFIX_HIJACK] More-specific prefix 208.96.129.0/24 (/24) announced by AS64573, but parent 208.96.128.0/21 is authorized only for AS27742
+2026-10-11 09:57:25,750 [WARNING] [SUBPREFIX_HIJACK] More-specific prefix 192.68.126.30/32 (/32) announced by AS64576, but parent 192.68.126.0/24 is authorized only for AS10515
+2026-10-11 09:57:25,771 [WARNING] [ORIGIN_MISMATCH] Prefix 198.84.110.0/24 announced by AS64533 but ROA authorizes AS36352
+2026-10-11 09:57:25,775 [WARNING] [SUBPREFIX_HIJACK] More-specific prefix 80.82.64.0/25 (/25) announced by AS64551, but parent 80.82.64.0/24 is authorized only for AS202425
+2026-10-11 09:57:25,793 [WARNING] [SUBPREFIX_HIJACK] More-specific prefix 162.251.120.0/23 (/23) announced by AS64593, but parent 162.251.120.0/22 is authorized only for AS64236
+2026-10-11 09:57:25,794 [WARNING] [ORIGIN_MISMATCH] Prefix 2602:faaf:2::/48 announced by AS64570 but ROA authorizes AS49585
+2026-10-11 09:57:25,800 [WARNING] [SUBPREFIX_HIJACK] More-specific prefix 117.136.70.128/25 (/25) announced by AS64597, but parent 117.136.70.0/24 is authorized only for AS9808
+2026-10-11 09:57:25,813 [WARNING] [SUBPREFIX_HIJACK] More-specific prefix 194.170.72.128/25 (/25) announced by AS64515, but parent 194.170.0.0/17 is authorized only for AS8966
+2026-10-11 09:57:25,819 [WARNING] [SUBPREFIX_HIJACK] More-specific prefix 68.47.238.0/23 (/23) announced by AS22909, but parent 68.32.0.0/11 is authorized only for AS7922
+2026-10-11 09:57:25,850 [WARNING] [ORIGIN_MISMATCH] Prefix 23.227.57.0/24 announced by AS64580 but ROA authorizes AS396982
+2026-10-11 09:57:25,857 [WARNING] [SUBPREFIX_HIJACK] More-specific prefix 180.129.36.128/25 (/25) announced by AS64596, but parent 180.129.0.0/18 is authorized only for AS4773
+2026-10-11 09:57:25,858 [WARNING] [SUBPREFIX_HIJACK] More-specific prefix 2806:370:8068::/45 (/45) announced by AS64576, but parent 2806:370:8060::/44 is authorized only for AS28403
+2026-10-11 09:57:25,861 [WARNING] [SUBPREFIX_HIJACK] More-specific prefix 2a04:4e40:f430::/45 (/45) announced by AS64546, but parent 2a04:4e40::/32 is authorized only for AS54113
+2026-10-11 09:57:25,865 [WARNING] [SUBPREFIX_HIJACK] More-specific prefix 222.126.216.0/24 (/24) announced by AS64564, but parent 222.126.128.0/17 is authorized only for AS7468
+2026-10-11 09:57:25,865 [WARNING] [SUBPREFIX_HIJACK] More-specific prefix 44.216.184.0/22 (/22) announced by AS64587, but parent 44.192.0.0/11 is authorized only for AS14618
+2026-10-11 09:57:25,901 [WARNING] [SUBPREFIX_HIJACK] More-specific prefix 194.170.72.0/24 (/24) announced by AS5384, but parent 194.170.0.0/17 is authorized only for AS8966
+2026-10-11 09:57:25,920 [WARNING] [SUBPREFIX_HIJACK] More-specific prefix 136.162.148.0/23 (/23) announced by AS64568, but parent 136.162.148.0/22 is authorized only for AS5650
+2026-10-11 09:57:25,929 [WARNING] [SUBPREFIX_HIJACK] More-specific prefix 194.76.31.0/24 (/24) announced by AS64596, but parent 194.76.30.0/23 is authorized only for AS3320
+2026-10-11 09:57:25,936 [WARNING] [ORIGIN_MISMATCH] Prefix 83.139.244.0/23 announced by AS64566 but ROA authorizes AS1299
+2026-10-11 09:57:25,969 [WARNING] [SUBPREFIX_HIJACK] More-specific prefix 36.213.97.0/24 (/24) announced by AS64540, but parent 36.213.0.0/16 is authorized only for AS9808
+2026-10-11 09:57:25,989 [WARNING] [SUBPREFIX_HIJACK] More-specific prefix 2001:579:609a::/47 (/47) announced by AS64583, but parent 2001:579:6000::/36 is authorized only for AS22773
+2026-10-11 09:57:26,007 [WARNING] [SUBPREFIX_HIJACK] More-specific prefix 194.170.72.0/24 (/24) announced by AS5384, but parent 194.170.0.0/17 is authorized only for AS8966
+2026-10-11 09:57:26,018 [WARNING] [SUBPREFIX_HIJACK] More-specific prefix 92.153.0.0/17 (/17) announced by AS64567, but parent 92.153.0.0/16 is authorized only for AS3215
+2026-10-11 09:57:26,022 [WARNING] [SUBPREFIX_HIJACK] More-specific prefix 208.96.129.0/25 (/25) announced by AS64544, but parent 208.96.128.0/21 is authorized only for AS27742
+2026-10-11 09:57:26,041 [WARNING] [SUBPREFIX_HIJACK] More-specific prefix 154.198.170.128/25 (/25) announced by AS64548, but parent 154.198.168.0/22 is authorized only for AS328608
+2026-10-11 09:57:26,055 [WARNING] [ORIGIN_MISMATCH] Prefix 217.30.160.0/20 announced by AS64545 but ROA authorizes AS39032
+2026-10-11 09:57:26,065 [WARNING] [SUBPREFIX_HIJACK] More-specific prefix 154.90.24.128/25 (/25) announced by AS64598, but parent 154.90.24.0/24 is authorized only for AS22773
+2026-10-11 09:57:26,078 [WARNING] [ORIGIN_MISMATCH] Prefix 46.252.16.0/20 announced by AS64521 but ROA authorizes AS8972
+2026-10-11 09:57:26,084 [WARNING] [SUBPREFIX_HIJACK] More-specific prefix 117.149.130.0/23 (/23) announced by AS64516, but parent 117.149.0.0/16 is authorized only for AS56041
+2026-10-11 09:57:26,094 [WARNING] [SUBPREFIX_HIJACK] More-specific prefix 111.92.171.128/25 (/25) announced by AS64582, but parent 111.92.171.0/24 is authorized only for AS23671
+2026-10-11 09:57:26,127 [WARNING] [SUBPREFIX_HIJACK] More-specific prefix 2001:c38:9151::/48 (/48) announced by AS134565, but parent 2001:c38:9000::/36 is authorized only for AS9931
+2026-10-11 09:57:26,148 [WARNING] [SUBPREFIX_HIJACK] More-specific prefix 2a02:2590::/33 (/33) announced by AS64542, but parent 2a02:2590::/32 is authorized only for AS51615
+2026-10-11 09:57:26,157 [WARNING] [SUBPREFIX_HIJACK] More-specific prefix 178.45.16.0/20 (/20) announced by AS64557, but parent 178.44.0.0/14 is authorized only for AS12389
+2026-10-11 09:57:26,158 [WARNING] [SUBPREFIX_HIJACK] More-specific prefix 240e:108:1183:8000::/49 (/49) announced by AS64583, but parent 240e:108:1180::/44 is authorized only for AS4134
+2026-10-11 09:57:26,163 [WARNING] [SUBPREFIX_HIJACK] More-specific prefix 92.14.0.0/15 (/15) announced by AS64556, but parent 92.12.0.0/14 is authorized only for AS19905
+2026-10-11 09:57:26,177 [WARNING] [SUBPREFIX_HIJACK] More-specific prefix 188.132.218.0/25 (/25) announced by AS64557, but parent 188.132.218.0/24 is authorized only for AS34984
+2026-10-11 09:57:26,264 [WARNING] [SUBPREFIX_HIJACK] More-specific prefix 68.192.0.0/14 (/14) announced by AS64597, but parent 68.192.0.0/13 is authorized only for AS6128
+2026-10-11 09:57:26,274 [WARNING] [SUBPREFIX_HIJACK] More-specific prefix 2402:f1c0:40e4::/48 (/48) announced by AS64512, but parent 2402:f1c0::/32 is authorized only for AS137868
+2026-10-11 09:57:26,280 [WARNING] [SUBPREFIX_HIJACK] More-specific prefix 208.96.129.0/24 (/24) announced by AS52501, but parent 208.96.128.0/21 is authorized only for AS27742
+2026-10-11 09:57:26,288 [WARNING] [SUBPREFIX_HIJACK] More-specific prefix 117.143.152.0/22 (/22) announced by AS64523, but parent 117.143.0.0/16 is authorized only for AS24400
+2026-10-11 09:57:26,311 [WARNING] [SUBPREFIX_HIJACK] More-specific prefix 186.243.162.0/25 (/25) announced by AS64558, but parent 186.243.162.0/24 is authorized only for AS44559
+2026-10-11 09:57:26,332 [WARNING] [ORIGIN_MISMATCH] Prefix 31.77.106.0/24 announced by AS64563 but ROA authorizes AS215730
+2026-10-11 09:57:26,353 [WARNING] [SUBPREFIX_HIJACK] More-specific prefix 154.198.170.0/24 (/24) announced by AS17561, but parent 154.198.168.0/22 is authorized only for AS328608
+2026-10-11 09:57:26,356 [WARNING] [SUBPREFIX_HIJACK] More-specific prefix 168.196.244.0/24 (/24) announced by AS64555, but parent 168.196.244.0/22 is authorized only for AS263801
+2026-10-11 09:57:26,357 [WARNING] [SUBPREFIX_HIJACK] More-specific prefix 2602:faaf:2:8000::/49 (/49) announced by AS64556, but parent 2602:faaf:2::/48 is authorized only for AS49585
+2026-10-11 09:57:26,398 [WARNING] [ORIGIN_MISMATCH] Prefix 64.249.0.0/18 announced by AS64572 but ROA authorizes AS3320
+2026-10-11 09:57:26,410 [WARNING] [SUBPREFIX_HIJACK] More-specific prefix 46.252.24.0/21 (/21) announced by AS64596, but parent 46.252.16.0/20 is authorized only for AS8972
+2026-10-11 09:57:26,440 [WARNING] [SUBPREFIX_HIJACK] More-specific prefix 45.194.240.0/24 (/24) announced by AS17561, but parent 45.194.128.0/17 is authorized only for AS22516
+2026-10-11 09:57:26,450 [WARNING] [SUBPREFIX_HIJACK] More-specific prefix 94.182.114.0/23 (/23) announced by AS205647, but parent 94.182.0.0/16 is authorized only for AS31549
+2026-10-11 09:57:26,468 [WARNING] [SUBPREFIX_HIJACK] More-specific prefix 2602:faaf:2:8000::/49 (/49) announced by AS64567, but parent 2602:faaf:2::/48 is authorized only for AS49585
+2026-10-11 09:57:26,479 [WARNING] [ORIGIN_MISMATCH] Prefix 94.183.205.0/24 announced by AS64516 but ROA authorizes AS213915
+2026-10-11 09:57:26,496 [WARNING] [ORIGIN_MISMATCH] Prefix 89.125.167.0/24 announced by AS64536 but ROA authorizes AS214159
+2026-10-11 09:57:26,519 [WARNING] [SUBPREFIX_HIJACK] More-specific prefix 2402:f1c0:40e4:8000::/49 (/49) announced by AS64540, but parent 2402:f1c0::/32 is authorized only for AS137868
+2026-10-11 09:57:26,519 [INFO] Done: 200 updates → 117 alerts
+2026-10-11 09:57:26,521 [INFO] Saved 117 alerts to reports/alerts.json
+2026-10-11 09:57:26,522 [INFO] Metrics saved to reports/metrics.json
+2026-10-11 09:57:26,522 [INFO] 
+>>> ML PHASE
+2026-10-11 09:57:34,811 [INFO] Random Forest trained on 150 samples
+2026-10-11 09:57:34,824 [INFO] Feature importances:
+2026-10-11 09:57:34,824 [INFO]   asn_is_private           : 0.3708
+2026-10-11 09:57:34,824 [INFO]   roa_status_code          : 0.3069
+2026-10-11 09:57:34,824 [INFO]   origin_has_roa           : 0.1968
+2026-10-11 09:57:34,824 [INFO]   specificity_delta        : 0.0993
+2026-10-11 09:57:34,824 [INFO]   as_path_len              : 0.0152
+2026-10-11 09:57:34,824 [INFO]   prefix_len               : 0.0109
+2026-10-11 09:57:34,824 [INFO]   prefix_covered           : 0.0000
+2026-10-11 09:57:34,824 [INFO]   peer_asn                 : 0.0000
+2026-10-11 09:57:41,058 [INFO] Model saved to models/rf_hijack_detector.pkl
+2026-10-11 09:57:43,207 [INFO] Random Forest:
+              precision    recall  f1-score   support
+
+       LEGIT       1.00      1.00      1.00        25
+      HIJACK       1.00      1.00      1.00        25
+
+    accuracy                           1.00        50
+   macro avg       1.00      1.00      1.00        50
+weighted avg       1.00      1.00      1.00        50
+
+2026-10-11 09:57:43,208 [INFO] ML report saved to reports/ml_report.txt
+2026-10-11 09:57:43,208 [INFO] 
+✓ Done. Output files:
+2026-10-11 09:57:43,208 [INFO]   Alerts  → reports/alerts.json
+2026-10-11 09:57:43,208 [INFO]   Metrics → reports/metrics.json
+2026-10-11 09:57:43,208 [INFO]   Log     → reports/fetch_and_run.log

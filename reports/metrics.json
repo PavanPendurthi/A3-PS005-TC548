@@ -1,0 +1,16 @@
+{
+  "total_events": 200,
+  "true_pos": 100,
+  "false_pos": 17,
+  "true_neg": 83,
+  "false_neg": 0,
+  "precision": 0.854701,
+  "recall": 1.0,
+  "f1": 0.921659,
+  "false_positive_rate": 0.17,
+  "avg_latency_s": 5.05,
+  "alert_breakdown": {
+    "SUBPREFIX_HIJACK": 92,
+    "ORIGIN_MISMATCH": 25
+  }
+}

@@ -1,0 +1,2055 @@
+[
+  {
+    "alert_id": 1,
+    "timestamp": "2024-06-01T00:21:59Z",
+    "rule": "SUBPREFIX_HIJACK",
+    "severity": "HIGH",
+    "prefix": "123.103.44.0/22",
+    "origin_asn": 64520,
+    "as_path": [
+      65010,
+      64520
+    ],
+    "matching_roa": "ROA(123.103.40.0/21, ASN4808, maxlen=21)",
+    "reason": "More-specific prefix 123.103.44.0/22 (/22) announced by AS64520, but parent 123.103.40.0/21 is authorized only for AS4808",
+    "peer_ip": "",
+    "peer_asn": 0,
+    "label": "HIJACK"
+  },
+  {
+    "alert_id": 2,
+    "timestamp": "2024-06-01T00:16:39Z",
+    "rule": "SUBPREFIX_HIJACK",
+    "severity": "HIGH",
+    "prefix": "78.130.205.0/25",
+    "origin_asn": 64554,
+    "as_path": [
+      65010,
+      64554
+    ],
+    "matching_roa": "ROA(78.130.128.0/17, ASN9070, maxlen=17)",
+    "reason": "More-specific prefix 78.130.205.0/25 (/25) announced by AS64554, but parent 78.130.128.0/17 is authorized only for AS9070",
+    "peer_ip": "",
+    "peer_asn": 0,
+    "label": "HIJACK"
+  },
+  {
+    "alert_id": 3,
+    "timestamp": "2024-06-01T00:19:31Z",
+    "rule": "SUBPREFIX_HIJACK",
+    "severity": "HIGH",
+    "prefix": "203.195.240.0/24",
+    "origin_asn": 64564,
+    "as_path": [
+      65010,
+      64564
+    ],
+    "matching_roa": "ROA(203.195.128.0/17, ASN45090, maxlen=17)",
+    "reason": "More-specific prefix 203.195.240.0/24 (/24) announced by AS64564, but parent 203.195.128.0/17 is authorized only for AS45090",
+    "peer_ip": "",
+    "peer_asn": 0,
+    "label": "HIJACK"
+  },
+  {
+    "alert_id": 4,
+    "timestamp": "2024-06-01T00:20:01Z",
+    "rule": "SUBPREFIX_HIJACK",
+    "severity": "HIGH",
+    "prefix": "83.4.0.0/17",
+    "origin_asn": 64554,
+    "as_path": [
+      65010,
+      64554
+    ],
+    "matching_roa": "ROA(83.0.0.0/13, ASN5617, maxlen=13)",
+    "reason": "More-specific prefix 83.4.0.0/17 (/17) announced by AS64554, but parent 83.0.0.0/13 is authorized only for AS5617",
+    "peer_ip": "",
+    "peer_asn": 0,
+    "label": "HIJACK"
+  },
+  {
+    "alert_id": 5,
+    "timestamp": "2024-06-01T00:16:04Z",
+    "rule": "SUBPREFIX_HIJACK",
+    "severity": "HIGH",
+    "prefix": "221.225.142.128/25",
+    "origin_asn": 64518,
+    "as_path": [
+      65010,
+      64518
+    ],
+    "matching_roa": "ROA(221.224.0.0/13, ASN4134, maxlen=13)",
+    "reason": "More-specific prefix 221.225.142.128/25 (/25) announced by AS64518, but parent 221.224.0.0/13 is authorized only for AS4134",
+    "peer_ip": "",
+    "peer_asn": 0,
+    "label": "HIJACK"
+  },
+  {
+    "alert_id": 6,
+    "timestamp": "2024-06-01T00:39:30Z",
+    "rule": "SUBPREFIX_HIJACK",
+    "severity": "HIGH",
+    "prefix": "194.170.72.0/24",
+    "origin_asn": 5384,
+    "as_path": [
+      65100,
+      65101,
+      5384
+    ],
+    "matching_roa": "ROA(194.170.0.0/17, ASN8966, maxlen=17)",
+    "reason": "More-specific prefix 194.170.72.0/24 (/24) announced by AS5384, but parent 194.170.0.0/17 is authorized only for AS8966",
+    "peer_ip": "",
+    "peer_asn": 0,
+    "label": "LEGIT"
+  },
+  {
+    "alert_id": 7,
+    "timestamp": "2024-06-01T00:00:19Z",
+    "rule": "SUBPREFIX_HIJACK",
+    "severity": "HIGH",
+    "prefix": "39.163.0.0/16",
+    "origin_asn": 64578,
+    "as_path": [
+      65001,
+      65002,
+      64578
+    ],
+    "matching_roa": "ROA(39.162.0.0/15, ASN24445, maxlen=15)",
+    "reason": "More-specific prefix 39.163.0.0/16 (/16) announced by AS64578, but parent 39.162.0.0/15 is authorized only for AS24445",
+    "peer_ip": "",
+    "peer_asn": 0,
+    "label": "HIJACK"
+  },
+  {
+    "alert_id": 8,
+    "timestamp": "2024-06-01T00:11:47Z",
+    "rule": "ORIGIN_MISMATCH",
+    "severity": "HIGH",
+    "prefix": "2001:df6:1e40::/48",
+    "origin_asn": 64564,
+    "as_path": [
+      65001,
+      65002,
+      64564
+    ],
+    "matching_roa": "ROA(2001:df6:1e40::/48, ASN154228, maxlen=48)",
+    "reason": "Prefix 2001:df6:1e40::/48 announced by AS64564 but ROA authorizes AS154228",
+    "peer_ip": "",
+    "peer_asn": 0,
+    "label": "HIJACK"
+  },
+  {
+    "alert_id": 9,
+    "timestamp": "2024-06-01T00:21:30Z",
+    "rule": "SUBPREFIX_HIJACK",
+    "severity": "HIGH",
+    "prefix": "210.48.218.0/25",
+    "origin_asn": 64563,
+    "as_path": [
+      65010,
+      64563
+    ],
+    "matching_roa": "ROA(210.48.218.0/24, ASN45344, maxlen=24)",
+    "reason": "More-specific prefix 210.48.218.0/25 (/25) announced by AS64563, but parent 210.48.218.0/24 is authorized only for AS45344",
+    "peer_ip": "",
+    "peer_asn": 0,
+    "label": "HIJACK"
+  },
+  {
+    "alert_id": 10,
+    "timestamp": "2024-06-01T00:14:15Z",
+    "rule": "ORIGIN_MISMATCH",
+    "severity": "HIGH",
+    "prefix": "240a:aaab::/32",
+    "origin_asn": 64583,
+    "as_path": [
+      65001,
+      65002,
+      64583
+    ],
+    "matching_roa": "ROA(240a:aaab::/32, ASN4538, maxlen=32)",
+    "reason": "Prefix 240a:aaab::/32 announced by AS64583 but ROA authorizes AS4538",
+    "peer_ip": "",
+    "peer_asn": 0,
+    "label": "HIJACK"
+  },
+  {
+    "alert_id": 11,
+    "timestamp": "2024-06-01T00:02:06Z",
+    "rule": "ORIGIN_MISMATCH",
+    "severity": "HIGH",
+    "prefix": "45.156.185.0/24",
+    "origin_asn": 64592,
+    "as_path": [
+      65001,
+      65002,
+      64592
+    ],
+    "matching_roa": "ROA(45.156.185.0/24, ASN208161, maxlen=24)",
+    "reason": "Prefix 45.156.185.0/24 announced by AS64592 but ROA authorizes AS208161",
+    "peer_ip": "",
+    "peer_asn": 0,
+    "label": "HIJACK"
+  },
+  {
+    "alert_id": 12,
+    "timestamp": "2024-06-01T00:15:02Z",
+    "rule": "SUBPREFIX_HIJACK",
+    "severity": "HIGH",
+    "prefix": "2a05:d072:c020::/49",
+    "origin_asn": 64582,
+    "as_path": [
+      65010,
+      64582
+    ],
+    "matching_roa": "ROA(2a05:d072:c000::/40, ASN16509, maxlen=40)",
+    "reason": "More-specific prefix 2a05:d072:c020::/49 (/49) announced by AS64582, but parent 2a05:d072:c000::/40 is authorized only for AS16509",
+    "peer_ip": "",
+    "peer_asn": 0,
+    "label": "HIJACK"
+  },
+  {
+    "alert_id": 13,
+    "timestamp": "2024-06-01T00:05:36Z",
+    "rule": "SUBPREFIX_HIJACK",
+    "severity": "HIGH",
+    "prefix": "195.130.122.0/24",
+    "origin_asn": 64524,
+    "as_path": [
+      65001,
+      65002,
+      64524
+    ],
+    "matching_roa": "ROA(195.130.64.0/18, ASN5408, maxlen=24)",
+    "reason": "More-specific prefix 195.130.122.0/24 (/24) announced by AS64524, but parent 195.130.64.0/18 is authorized only for AS5408",
+    "peer_ip": "",
+    "peer_asn": 0,
+    "label": "HIJACK"
+  },
+  {
+    "alert_id": 14,
+    "timestamp": "2024-06-01T00:27:22Z",
+    "rule": "SUBPREFIX_HIJACK",
+    "severity": "HIGH",
+    "prefix": "81.29.208.0/20",
+    "origin_asn": 64598,
+    "as_path": [
+      65010,
+      64598
+    ],
+    "matching_roa": "ROA(81.29.192.0/19, ASN15830, maxlen=19)",
+    "reason": "More-specific prefix 81.29.208.0/20 (/20) announced by AS64598, but parent 81.29.192.0/19 is authorized only for AS15830",
+    "peer_ip": "",
+    "peer_asn": 0,
+    "label": "HIJACK"
+  },
+  {
+    "alert_id": 15,
+    "timestamp": "2024-06-01T00:21:10Z",
+    "rule": "SUBPREFIX_HIJACK",
+    "severity": "HIGH",
+    "prefix": "103.93.219.128/25",
+    "origin_asn": 64556,
+    "as_path": [
+      65010,
+      64556
+    ],
+    "matching_roa": "ROA(103.93.216.0/22, ASN58895, maxlen=22)",
+    "reason": "More-specific prefix 103.93.219.128/25 (/25) announced by AS64556, but parent 103.93.216.0/22 is authorized only for AS58895",
+    "peer_ip": "",
+    "peer_asn": 0,
+    "label": "HIJACK"
+  },
+  {
+    "alert_id": 16,
+    "timestamp": "2024-06-01T00:05:17Z",
+    "rule": "SUBPREFIX_HIJACK",
+    "severity": "HIGH",
+    "prefix": "39.163.0.0/16",
+    "origin_asn": 64572,
+    "as_path": [
+      65001,
+      65002,
+      64572
+    ],
+    "matching_roa": "ROA(39.162.0.0/15, ASN24445, maxlen=15)",
+    "reason": "More-specific prefix 39.163.0.0/16 (/16) announced by AS64572, but parent 39.162.0.0/15 is authorized only for AS24445",
+    "peer_ip": "",
+    "peer_asn": 0,
+    "label": "HIJACK"
+  },
+  {
+    "alert_id": 17,
+    "timestamp": "2024-06-01T00:49:19Z",
+    "rule": "SUBPREFIX_HIJACK",
+    "severity": "HIGH",
+    "prefix": "45.194.240.0/24",
+    "origin_asn": 17561,
+    "as_path": [
+      65100,
+      65101,
+      17561
+    ],
+    "matching_roa": "ROA(45.194.128.0/17, ASN22516, maxlen=24)",
+    "reason": "More-specific prefix 45.194.240.0/24 (/24) announced by AS17561, but parent 45.194.128.0/17 is authorized only for AS22516",
+    "peer_ip": "",
+    "peer_asn": 0,
+    "label": "LEGIT"
+  },
+  {
+    "alert_id": 18,
+    "timestamp": "2024-06-01T00:25:40Z",
+    "rule": "SUBPREFIX_HIJACK",
+    "severity": "HIGH",
+    "prefix": "67.221.253.0/25",
+    "origin_asn": 64597,
+    "as_path": [
+      65010,
+      64597
+    ],
+    "matching_roa": "ROA(67.221.253.0/24, ASN8038, maxlen=24)",
+    "reason": "More-specific prefix 67.221.253.0/25 (/25) announced by AS64597, but parent 67.221.253.0/24 is authorized only for AS8038",
+    "peer_ip": "",
+    "peer_asn": 0,
+    "label": "HIJACK"
+  },
+  {
+    "alert_id": 19,
+    "timestamp": "2024-06-01T00:39:56Z",
+    "rule": "SUBPREFIX_HIJACK",
+    "severity": "HIGH",
+    "prefix": "64.62.197.0/24",
+    "origin_asn": 22168,
+    "as_path": [
+      65100,
+      65101,
+      22168
+    ],
+    "matching_roa": "ROA(64.62.128.0/17, ASN6939, maxlen=24)",
+    "reason": "More-specific prefix 64.62.197.0/24 (/24) announced by AS22168, but parent 64.62.128.0/17 is authorized only for AS6939",
+    "peer_ip": "",
+    "peer_asn": 0,
+    "label": "LEGIT"
+  },
+  {
+    "alert_id": 20,
+    "timestamp": "2024-06-01T00:08:26Z",
+    "rule": "SUBPREFIX_HIJACK",
+    "severity": "HIGH",
+    "prefix": "221.225.142.0/24",
+    "origin_asn": 64555,
+    "as_path": [
+      65001,
+      65002,
+      64555
+    ],
+    "matching_roa": "ROA(221.224.0.0/13, ASN4134, maxlen=13)",
+    "reason": "More-specific prefix 221.225.142.0/24 (/24) announced by AS64555, but parent 221.224.0.0/13 is authorized only for AS4134",
+    "peer_ip": "",
+    "peer_asn": 0,
+    "label": "HIJACK"
+  },
+  {
+    "alert_id": 21,
+    "timestamp": "2024-06-01T00:23:17Z",
+    "rule": "SUBPREFIX_HIJACK",
+    "severity": "HIGH",
+    "prefix": "45.117.1.128/25",
+    "origin_asn": 64534,
+    "as_path": [
+      65010,
+      64534
+    ],
+    "matching_roa": "ROA(45.117.1.0/24, ASN135817, maxlen=24)",
+    "reason": "More-specific prefix 45.117.1.128/25 (/25) announced by AS64534, but parent 45.117.1.0/24 is authorized only for AS135817",
+    "peer_ip": "",
+    "peer_asn": 0,
+    "label": "HIJACK"
+  },
+  {
+    "alert_id": 22,
+    "timestamp": "2024-06-01T00:09:39Z",
+    "rule": "SUBPREFIX_HIJACK",
+    "severity": "HIGH",
+    "prefix": "180.153.228.0/22",
+    "origin_asn": 64535,
+    "as_path": [
+      65001,
+      65002,
+      64535
+    ],
+    "matching_roa": "ROA(180.152.0.0/13, ASN4812, maxlen=13)",
+    "reason": "More-specific prefix 180.153.228.0/22 (/22) announced by AS64535, but parent 180.152.0.0/13 is authorized only for AS4812",
+    "peer_ip": "",
+    "peer_asn": 0,
+    "label": "HIJACK"
+  },
+  {
+    "alert_id": 23,
+    "timestamp": "2024-06-01T00:03:44Z",
+    "rule": "SUBPREFIX_HIJACK",
+    "severity": "HIGH",
+    "prefix": "2001:16a2:c009::/48",
+    "origin_asn": 64539,
+    "as_path": [
+      65001,
+      65002,
+      64539
+    ],
+    "matching_roa": "ROA(2001:16a2:c008::/47, ASN39891, maxlen=47)",
+    "reason": "More-specific prefix 2001:16a2:c009::/48 (/48) announced by AS64539, but parent 2001:16a2:c008::/47 is authorized only for AS39891",
+    "peer_ip": "",
+    "peer_asn": 0,
+    "label": "HIJACK"
+  },
+  {
+    "alert_id": 24,
+    "timestamp": "2024-06-01T00:07:28Z",
+    "rule": "ORIGIN_MISMATCH",
+    "severity": "HIGH",
+    "prefix": "111.92.171.0/24",
+    "origin_asn": 64524,
+    "as_path": [
+      65001,
+      65002,
+      64524
+    ],
+    "matching_roa": "ROA(111.92.171.0/24, ASN23671, maxlen=24)",
+    "reason": "Prefix 111.92.171.0/24 announced by AS64524 but ROA authorizes AS23671",
+    "peer_ip": "",
+    "peer_asn": 0,
+    "label": "HIJACK"
+  },
+  {
+    "alert_id": 25,
+    "timestamp": "2024-06-01T00:26:19Z",
+    "rule": "SUBPREFIX_HIJACK",
+    "severity": "HIGH",
+    "prefix": "136.162.150.0/23",
+    "origin_asn": 64553,
+    "as_path": [
+      65010,
+      64553
+    ],
+    "matching_roa": "ROA(136.162.148.0/22, ASN5650, maxlen=24)",
+    "reason": "More-specific prefix 136.162.150.0/23 (/23) announced by AS64553, but parent 136.162.148.0/22 is authorized only for AS5650",
+    "peer_ip": "",
+    "peer_asn": 0,
+    "label": "HIJACK"
+  },
+  {
+    "alert_id": 26,
+    "timestamp": "2024-06-01T00:17:52Z",
+    "rule": "SUBPREFIX_HIJACK",
+    "severity": "HIGH",
+    "prefix": "2600:1f1d:4800::/38",
+    "origin_asn": 64581,
+    "as_path": [
+      65010,
+      64581
+    ],
+    "matching_roa": "ROA(2600:1f1d:4000::/36, ASN14618, maxlen=36)",
+    "reason": "More-specific prefix 2600:1f1d:4800::/38 (/38) announced by AS64581, but parent 2600:1f1d:4000::/36 is authorized only for AS14618",
+    "peer_ip": "",
+    "peer_asn": 0,
+    "label": "HIJACK"
+  },
+  {
+    "alert_id": 27,
+    "timestamp": "2024-06-01T00:27:40Z",
+    "rule": "SUBPREFIX_HIJACK",
+    "severity": "HIGH",
+    "prefix": "203.105.174.0/24",
+    "origin_asn": 4755,
+    "as_path": [
+      65100,
+      65101,
+      4755
+    ],
+    "matching_roa": "ROA(203.105.174.0/23, ASN6453, maxlen=23)",
+    "reason": "More-specific prefix 203.105.174.0/24 (/24) announced by AS4755, but parent 203.105.174.0/23 is authorized only for AS6453",
+    "peer_ip": "",
+    "peer_asn": 0,
+    "label": "LEGIT"
+  },
+  {
+    "alert_id": 28,
+    "timestamp": "2024-06-01T00:05:28Z",
+    "rule": "SUBPREFIX_HIJACK",
+    "severity": "HIGH",
+    "prefix": "88.213.214.0/24",
+    "origin_asn": 64564,
+    "as_path": [
+      65001,
+      65002,
+      64564
+    ],
+    "matching_roa": "ROA(88.213.214.0/23, ASN61071, maxlen=23)",
+    "reason": "More-specific prefix 88.213.214.0/24 (/24) announced by AS64564, but parent 88.213.214.0/23 is authorized only for AS61071",
+    "peer_ip": "",
+    "peer_asn": 0,
+    "label": "HIJACK"
+  },
+  {
+    "alert_id": 29,
+    "timestamp": "2024-06-01T00:14:37Z",
+    "rule": "SUBPREFIX_HIJACK",
+    "severity": "HIGH",
+    "prefix": "103.93.219.0/25",
+    "origin_asn": 64597,
+    "as_path": [
+      65010,
+      64597
+    ],
+    "matching_roa": "ROA(103.93.216.0/22, ASN58895, maxlen=22)",
+    "reason": "More-specific prefix 103.93.219.0/25 (/25) announced by AS64597, but parent 103.93.216.0/22 is authorized only for AS58895",
+    "peer_ip": "",
+    "peer_asn": 0,
+    "label": "HIJACK"
+  },
+  {
+    "alert_id": 30,
+    "timestamp": "2024-06-01T00:02:13Z",
+    "rule": "SUBPREFIX_HIJACK",
+    "severity": "HIGH",
+    "prefix": "78.130.205.0/24",
+    "origin_asn": 64541,
+    "as_path": [
+      65001,
+      65002,
+      64541
+    ],
+    "matching_roa": "ROA(78.130.128.0/17, ASN9070, maxlen=17)",
+    "reason": "More-specific prefix 78.130.205.0/24 (/24) announced by AS64541, but parent 78.130.128.0/17 is authorized only for AS9070",
+    "peer_ip": "",
+    "peer_asn": 0,
+    "label": "HIJACK"
+  },
+  {
+    "alert_id": 31,
+    "timestamp": "2024-06-01T00:17:46Z",
+    "rule": "SUBPREFIX_HIJACK",
+    "severity": "HIGH",
+    "prefix": "138.16.73.0/25",
+    "origin_asn": 64521,
+    "as_path": [
+      65010,
+      64521
+    ],
+    "matching_roa": "ROA(138.16.73.0/24, ASN44559, maxlen=24)",
+    "reason": "More-specific prefix 138.16.73.0/25 (/25) announced by AS64521, but parent 138.16.73.0/24 is authorized only for AS44559",
+    "peer_ip": "",
+    "peer_asn": 0,
+    "label": "HIJACK"
+  },
+  {
+    "alert_id": 32,
+    "timestamp": "2024-06-01T00:07:22Z",
+    "rule": "ORIGIN_MISMATCH",
+    "severity": "HIGH",
+    "prefix": "46.252.16.0/20",
+    "origin_asn": 64595,
+    "as_path": [
+      65001,
+      65002,
+      64595
+    ],
+    "matching_roa": "ROA(46.252.16.0/20, ASN8972, maxlen=24)",
+    "reason": "Prefix 46.252.16.0/20 announced by AS64595 but ROA authorizes AS8972",
+    "peer_ip": "",
+    "peer_asn": 0,
+    "label": "HIJACK"
+  },
+  {
+    "alert_id": 33,
+    "timestamp": "2024-06-01T00:37:24Z",
+    "rule": "SUBPREFIX_HIJACK",
+    "severity": "HIGH",
+    "prefix": "199.237.96.0/23",
+    "origin_asn": 13700,
+    "as_path": [
+      65100,
+      65101,
+      13700
+    ],
+    "matching_roa": "ROA(199.236.0.0/14, ASN2914, maxlen=14)",
+    "reason": "More-specific prefix 199.237.96.0/23 (/23) announced by AS13700, but parent 199.236.0.0/14 is authorized only for AS2914",
+    "peer_ip": "",
+    "peer_asn": 0,
+    "label": "LEGIT"
+  },
+  {
+    "alert_id": 34,
+    "timestamp": "2024-06-01T00:14:53Z",
+    "rule": "SUBPREFIX_HIJACK",
+    "severity": "HIGH",
+    "prefix": "92.12.0.0/15",
+    "origin_asn": 64545,
+    "as_path": [
+      65010,
+      64545
+    ],
+    "matching_roa": "ROA(92.12.0.0/14, ASN19905, maxlen=24)",
+    "reason": "More-specific prefix 92.12.0.0/15 (/15) announced by AS64545, but parent 92.12.0.0/14 is authorized only for AS19905",
+    "peer_ip": "",
+    "peer_asn": 0,
+    "label": "HIJACK"
+  },
+  {
+    "alert_id": 35,
+    "timestamp": "2024-06-01T00:55:57Z",
+    "rule": "SUBPREFIX_HIJACK",
+    "severity": "HIGH",
+    "prefix": "183.220.146.0/24",
+    "origin_asn": 139080,
+    "as_path": [
+      65200,
+      139080
+    ],
+    "matching_roa": "ROA(183.220.0.0/16, ASN9808, maxlen=16)",
+    "reason": "More-specific prefix 183.220.146.0/24 (/24) announced by AS139080, but parent 183.220.0.0/16 is authorized only for AS9808",
+    "peer_ip": "",
+    "peer_asn": 0,
+    "label": "LEGIT"
+  },
+  {
+    "alert_id": 36,
+    "timestamp": "2024-06-01T00:15:37Z",
+    "rule": "SUBPREFIX_HIJACK",
+    "severity": "HIGH",
+    "prefix": "190.112.224.0/20",
+    "origin_asn": 64555,
+    "as_path": [
+      65010,
+      64555
+    ],
+    "matching_roa": "ROA(190.112.224.0/19, ASN52233, maxlen=24)",
+    "reason": "More-specific prefix 190.112.224.0/20 (/20) announced by AS64555, but parent 190.112.224.0/19 is authorized only for AS52233",
+    "peer_ip": "",
+    "peer_asn": 0,
+    "label": "HIJACK"
+  },
+  {
+    "alert_id": 37,
+    "timestamp": "2024-06-01T00:18:14Z",
+    "rule": "SUBPREFIX_HIJACK",
+    "severity": "HIGH",
+    "prefix": "194.93.60.128/25",
+    "origin_asn": 64586,
+    "as_path": [
+      65010,
+      64586
+    ],
+    "matching_roa": "ROA(194.93.60.0/24, ASN274173, maxlen=24)",
+    "reason": "More-specific prefix 194.93.60.128/25 (/25) announced by AS64586, but parent 194.93.60.0/24 is authorized only for AS274173",
+    "peer_ip": "",
+    "peer_asn": 0,
+    "label": "HIJACK"
+  },
+  {
+    "alert_id": 38,
+    "timestamp": "2024-06-01T00:02:49Z",
+    "rule": "SUBPREFIX_HIJACK",
+    "severity": "HIGH",
+    "prefix": "187.1.137.0/24",
+    "origin_asn": 64521,
+    "as_path": [
+      65001,
+      65002,
+      64521
+    ],
+    "matching_roa": "ROA(187.1.128.0/20, ASN28299, maxlen=24)",
+    "reason": "More-specific prefix 187.1.137.0/24 (/24) announced by AS64521, but parent 187.1.128.0/20 is authorized only for AS28299",
+    "peer_ip": "",
+    "peer_asn": 0,
+    "label": "HIJACK"
+  },
+  {
+    "alert_id": 39,
+    "timestamp": "2024-06-01T00:12:04Z",
+    "rule": "SUBPREFIX_HIJACK",
+    "severity": "HIGH",
+    "prefix": "39.163.0.0/16",
+    "origin_asn": 64563,
+    "as_path": [
+      65001,
+      65002,
+      64563
+    ],
+    "matching_roa": "ROA(39.162.0.0/15, ASN24445, maxlen=15)",
+    "reason": "More-specific prefix 39.163.0.0/16 (/16) announced by AS64563, but parent 39.162.0.0/15 is authorized only for AS24445",
+    "peer_ip": "",
+    "peer_asn": 0,
+    "label": "HIJACK"
+  },
+  {
+    "alert_id": 40,
+    "timestamp": "2024-06-01T00:21:15Z",
+    "rule": "SUBPREFIX_HIJACK",
+    "severity": "HIGH",
+    "prefix": "80.82.64.0/25",
+    "origin_asn": 64540,
+    "as_path": [
+      65010,
+      64540
+    ],
+    "matching_roa": "ROA(80.82.64.0/24, ASN202425, maxlen=24)",
+    "reason": "More-specific prefix 80.82.64.0/25 (/25) announced by AS64540, but parent 80.82.64.0/24 is authorized only for AS202425",
+    "peer_ip": "",
+    "peer_asn": 0,
+    "label": "HIJACK"
+  },
+  {
+    "alert_id": 41,
+    "timestamp": "2024-06-01T00:03:22Z",
+    "rule": "ORIGIN_MISMATCH",
+    "severity": "HIGH",
+    "prefix": "92.12.0.0/14",
+    "origin_asn": 64597,
+    "as_path": [
+      65001,
+      65002,
+      64597
+    ],
+    "matching_roa": "ROA(92.12.0.0/14, ASN19905, maxlen=24)",
+    "reason": "Prefix 92.12.0.0/14 announced by AS64597 but ROA authorizes AS19905",
+    "peer_ip": "",
+    "peer_asn": 0,
+    "label": "HIJACK"
+  },
+  {
+    "alert_id": 42,
+    "timestamp": "2024-06-01T00:31:39Z",
+    "rule": "SUBPREFIX_HIJACK",
+    "severity": "HIGH",
+    "prefix": "203.105.174.0/24",
+    "origin_asn": 4755,
+    "as_path": [
+      65100,
+      65101,
+      4755
+    ],
+    "matching_roa": "ROA(203.105.174.0/23, ASN6453, maxlen=23)",
+    "reason": "More-specific prefix 203.105.174.0/24 (/24) announced by AS4755, but parent 203.105.174.0/23 is authorized only for AS6453",
+    "peer_ip": "",
+    "peer_asn": 0,
+    "label": "LEGIT"
+  },
+  {
+    "alert_id": 43,
+    "timestamp": "2024-06-01T00:01:33Z",
+    "rule": "ORIGIN_MISMATCH",
+    "severity": "HIGH",
+    "prefix": "2c0f:f280::/32",
+    "origin_asn": 64540,
+    "as_path": [
+      65001,
+      65002,
+      64540
+    ],
+    "matching_roa": "ROA(2c0f:f280::/32, ASN37645, maxlen=39)",
+    "reason": "Prefix 2c0f:f280::/32 announced by AS64540 but ROA authorizes AS37645",
+    "peer_ip": "",
+    "peer_asn": 0,
+    "label": "HIJACK"
+  },
+  {
+    "alert_id": 44,
+    "timestamp": "2024-06-01T00:01:28Z",
+    "rule": "ORIGIN_MISMATCH",
+    "severity": "HIGH",
+    "prefix": "45.233.152.0/22",
+    "origin_asn": 64541,
+    "as_path": [
+      65001,
+      65002,
+      64541
+    ],
+    "matching_roa": "ROA(45.233.152.0/22, ASN267328, maxlen=24)",
+    "reason": "Prefix 45.233.152.0/22 announced by AS64541 but ROA authorizes AS267328",
+    "peer_ip": "",
+    "peer_asn": 0,
+    "label": "HIJACK"
+  },
+  {
+    "alert_id": 45,
+    "timestamp": "2024-06-01T00:25:07Z",
+    "rule": "SUBPREFIX_HIJACK",
+    "severity": "HIGH",
+    "prefix": "117.143.154.0/23",
+    "origin_asn": 64512,
+    "as_path": [
+      65010,
+      64512
+    ],
+    "matching_roa": "ROA(117.143.0.0/16, ASN24400, maxlen=16)",
+    "reason": "More-specific prefix 117.143.154.0/23 (/23) announced by AS64512, but parent 117.143.0.0/16 is authorized only for AS24400",
+    "peer_ip": "",
+    "peer_asn": 0,
+    "label": "HIJACK"
+  },
+  {
+    "alert_id": 46,
+    "timestamp": "2024-06-01T00:04:35Z",
+    "rule": "SUBPREFIX_HIJACK",
+    "severity": "HIGH",
+    "prefix": "180.129.36.0/24",
+    "origin_asn": 64585,
+    "as_path": [
+      65001,
+      65002,
+      64585
+    ],
+    "matching_roa": "ROA(180.129.0.0/18, ASN4773, maxlen=18)",
+    "reason": "More-specific prefix 180.129.36.0/24 (/24) announced by AS64585, but parent 180.129.0.0/18 is authorized only for AS4773",
+    "peer_ip": "",
+    "peer_asn": 0,
+    "label": "HIJACK"
+  },
+  {
+    "alert_id": 47,
+    "timestamp": "2024-06-01T00:26:54Z",
+    "rule": "SUBPREFIX_HIJACK",
+    "severity": "HIGH",
+    "prefix": "185.45.80.0/25",
+    "origin_asn": 64565,
+    "as_path": [
+      65010,
+      64565
+    ],
+    "matching_roa": "ROA(185.45.80.0/24, ASN34545, maxlen=24)",
+    "reason": "More-specific prefix 185.45.80.0/25 (/25) announced by AS64565, but parent 185.45.80.0/24 is authorized only for AS34545",
+    "peer_ip": "",
+    "peer_asn": 0,
+    "label": "HIJACK"
+  },
+  {
+    "alert_id": 48,
+    "timestamp": "2024-06-01T00:00:31Z",
+    "rule": "SUBPREFIX_HIJACK",
+    "severity": "HIGH",
+    "prefix": "117.143.152.0/22",
+    "origin_asn": 64527,
+    "as_path": [
+      65001,
+      65002,
+      64527
+    ],
+    "matching_roa": "ROA(117.143.0.0/16, ASN24400, maxlen=16)",
+    "reason": "More-specific prefix 117.143.152.0/22 (/22) announced by AS64527, but parent 117.143.0.0/16 is authorized only for AS24400",
+    "peer_ip": "",
+    "peer_asn": 0,
+    "label": "HIJACK"
+  },
+  {
+    "alert_id": 49,
+    "timestamp": "2024-06-01T00:10:48Z",
+    "rule": "ORIGIN_MISMATCH",
+    "severity": "HIGH",
+    "prefix": "193.242.209.0/24",
+    "origin_asn": 64581,
+    "as_path": [
+      65001,
+      65002,
+      64581
+    ],
+    "matching_roa": "ROA(193.242.209.0/24, ASN208161, maxlen=24)",
+    "reason": "Prefix 193.242.209.0/24 announced by AS64581 but ROA authorizes AS208161",
+    "peer_ip": "",
+    "peer_asn": 0,
+    "label": "HIJACK"
+  },
+  {
+    "alert_id": 50,
+    "timestamp": "2024-06-01T00:46:01Z",
+    "rule": "SUBPREFIX_HIJACK",
+    "severity": "HIGH",
+    "prefix": "2602:fa80:43::/48",
+    "origin_asn": 140666,
+    "as_path": [
+      65100,
+      65101,
+      140666
+    ],
+    "matching_roa": "ROA(2602:fa80::/36, ASN63139, maxlen=64)",
+    "reason": "More-specific prefix 2602:fa80:43::/48 (/48) announced by AS140666, but parent 2602:fa80::/36 is authorized only for AS63139",
+    "peer_ip": "",
+    "peer_asn": 0,
+    "label": "LEGIT"
+  },
+  {
+    "alert_id": 51,
+    "timestamp": "2024-06-01T00:10:43Z",
+    "rule": "SUBPREFIX_HIJACK",
+    "severity": "HIGH",
+    "prefix": "2409:8750:ffd2::/48",
+    "origin_asn": 64518,
+    "as_path": [
+      65001,
+      65002,
+      64518
+    ],
+    "matching_roa": "ROA(2409:8750::/32, ASN56047, maxlen=32)",
+    "reason": "More-specific prefix 2409:8750:ffd2::/48 (/48) announced by AS64518, but parent 2409:8750::/32 is authorized only for AS56047",
+    "peer_ip": "",
+    "peer_asn": 0,
+    "label": "HIJACK"
+  },
+  {
+    "alert_id": 52,
+    "timestamp": "2024-06-01T00:03:02Z",
+    "rule": "ORIGIN_MISMATCH",
+    "severity": "HIGH",
+    "prefix": "240e:258::/30",
+    "origin_asn": 64542,
+    "as_path": [
+      65001,
+      65002,
+      64542
+    ],
+    "matching_roa": "ROA(240e:258::/30, ASN4134, maxlen=30)",
+    "reason": "Prefix 240e:258::/30 announced by AS64542 but ROA authorizes AS4134",
+    "peer_ip": "",
+    "peer_asn": 0,
+    "label": "HIJACK"
+  },
+  {
+    "alert_id": 53,
+    "timestamp": "2024-06-01T00:10:18Z",
+    "rule": "SUBPREFIX_HIJACK",
+    "severity": "HIGH",
+    "prefix": "184.170.67.0/24",
+    "origin_asn": 64582,
+    "as_path": [
+      65001,
+      65002,
+      64582
+    ],
+    "matching_roa": "ROA(184.170.64.0/20, ASN4922, maxlen=20)",
+    "reason": "More-specific prefix 184.170.67.0/24 (/24) announced by AS64582, but parent 184.170.64.0/20 is authorized only for AS4922",
+    "peer_ip": "",
+    "peer_asn": 0,
+    "label": "HIJACK"
+  },
+  {
+    "alert_id": 54,
+    "timestamp": "2024-06-01T00:20:45Z",
+    "rule": "SUBPREFIX_HIJACK",
+    "severity": "HIGH",
+    "prefix": "186.243.162.0/25",
+    "origin_asn": 64560,
+    "as_path": [
+      65010,
+      64560
+    ],
+    "matching_roa": "ROA(186.243.162.0/24, ASN44559, maxlen=24)",
+    "reason": "More-specific prefix 186.243.162.0/25 (/25) announced by AS64560, but parent 186.243.162.0/24 is authorized only for AS44559",
+    "peer_ip": "",
+    "peer_asn": 0,
+    "label": "HIJACK"
+  },
+  {
+    "alert_id": 55,
+    "timestamp": "2024-06-01T00:10:10Z",
+    "rule": "ORIGIN_MISMATCH",
+    "severity": "HIGH",
+    "prefix": "92.42.47.0/24",
+    "origin_asn": 64521,
+    "as_path": [
+      65001,
+      65002,
+      64521
+    ],
+    "matching_roa": "ROA(92.42.47.0/24, ASN206996, maxlen=24)",
+    "reason": "Prefix 92.42.47.0/24 announced by AS64521 but ROA authorizes AS206996",
+    "peer_ip": "",
+    "peer_asn": 0,
+    "label": "HIJACK"
+  },
+  {
+    "alert_id": 56,
+    "timestamp": "2024-06-01T00:51:24Z",
+    "rule": "SUBPREFIX_HIJACK",
+    "severity": "HIGH",
+    "prefix": "182.148.96.0/21",
+    "origin_asn": 4809,
+    "as_path": [
+      65200,
+      4809
+    ],
+    "matching_roa": "ROA(182.144.0.0/13, ASN4134, maxlen=13)",
+    "reason": "More-specific prefix 182.148.96.0/21 (/21) announced by AS4809, but parent 182.144.0.0/13 is authorized only for AS4134",
+    "peer_ip": "",
+    "peer_asn": 0,
+    "label": "LEGIT"
+  },
+  {
+    "alert_id": 57,
+    "timestamp": "2024-06-01T00:11:27Z",
+    "rule": "ORIGIN_MISMATCH",
+    "severity": "HIGH",
+    "prefix": "240e:258::/30",
+    "origin_asn": 64542,
+    "as_path": [
+      65001,
+      65002,
+      64542
+    ],
+    "matching_roa": "ROA(240e:258::/30, ASN4134, maxlen=30)",
+    "reason": "Prefix 240e:258::/30 announced by AS64542 but ROA authorizes AS4134",
+    "peer_ip": "",
+    "peer_asn": 0,
+    "label": "HIJACK"
+  },
+  {
+    "alert_id": 58,
+    "timestamp": "2024-06-01T00:06:57Z",
+    "rule": "SUBPREFIX_HIJACK",
+    "severity": "HIGH",
+    "prefix": "117.183.220.0/22",
+    "origin_asn": 64518,
+    "as_path": [
+      65001,
+      65002,
+      64518
+    ],
+    "matching_roa": "ROA(117.183.0.0/16, ASN9808, maxlen=16)",
+    "reason": "More-specific prefix 117.183.220.0/22 (/22) announced by AS64518, but parent 117.183.0.0/16 is authorized only for AS9808",
+    "peer_ip": "",
+    "peer_asn": 0,
+    "label": "HIJACK"
+  },
+  {
+    "alert_id": 59,
+    "timestamp": "2024-06-01T00:04:12Z",
+    "rule": "SUBPREFIX_HIJACK",
+    "severity": "HIGH",
+    "prefix": "183.220.146.0/24",
+    "origin_asn": 64528,
+    "as_path": [
+      65001,
+      65002,
+      64528
+    ],
+    "matching_roa": "ROA(183.220.0.0/16, ASN9808, maxlen=16)",
+    "reason": "More-specific prefix 183.220.146.0/24 (/24) announced by AS64528, but parent 183.220.0.0/16 is authorized only for AS9808",
+    "peer_ip": "",
+    "peer_asn": 0,
+    "label": "HIJACK"
+  },
+  {
+    "alert_id": 60,
+    "timestamp": "2024-06-01T00:08:38Z",
+    "rule": "ORIGIN_MISMATCH",
+    "severity": "HIGH",
+    "prefix": "46.252.16.0/20",
+    "origin_asn": 64525,
+    "as_path": [
+      65001,
+      65002,
+      64525
+    ],
+    "matching_roa": "ROA(46.252.16.0/20, ASN8972, maxlen=24)",
+    "reason": "Prefix 46.252.16.0/20 announced by AS64525 but ROA authorizes AS8972",
+    "peer_ip": "",
+    "peer_asn": 0,
+    "label": "HIJACK"
+  },
+  {
+    "alert_id": 61,
+    "timestamp": "2024-06-01T00:09:26Z",
+    "rule": "ORIGIN_MISMATCH",
+    "severity": "HIGH",
+    "prefix": "69.82.0.0/15",
+    "origin_asn": 64529,
+    "as_path": [
+      65001,
+      65002,
+      64529
+    ],
+    "matching_roa": "ROA(69.82.0.0/15, ASN6167, maxlen=15)",
+    "reason": "Prefix 69.82.0.0/15 announced by AS64529 but ROA authorizes AS6167",
+    "peer_ip": "",
+    "peer_asn": 0,
+    "label": "HIJACK"
+  },
+  {
+    "alert_id": 62,
+    "timestamp": "2024-06-01T00:09:51Z",
+    "rule": "ORIGIN_MISMATCH",
+    "severity": "HIGH",
+    "prefix": "64.249.0.0/18",
+    "origin_asn": 64571,
+    "as_path": [
+      65001,
+      65002,
+      64571
+    ],
+    "matching_roa": "ROA(64.249.0.0/18, ASN3320, maxlen=24)",
+    "reason": "Prefix 64.249.0.0/18 announced by AS64571 but ROA authorizes AS3320",
+    "peer_ip": "",
+    "peer_asn": 0,
+    "label": "HIJACK"
+  },
+  {
+    "alert_id": 63,
+    "timestamp": "2024-06-01T00:16:10Z",
+    "rule": "SUBPREFIX_HIJACK",
+    "severity": "HIGH",
+    "prefix": "117.136.70.128/25",
+    "origin_asn": 64547,
+    "as_path": [
+      65010,
+      64547
+    ],
+    "matching_roa": "ROA(117.136.70.0/24, ASN9808, maxlen=24)",
+    "reason": "More-specific prefix 117.136.70.128/25 (/25) announced by AS64547, but parent 117.136.70.0/24 is authorized only for AS9808",
+    "peer_ip": "",
+    "peer_asn": 0,
+    "label": "HIJACK"
+  },
+  {
+    "alert_id": 64,
+    "timestamp": "2024-06-01T00:24:40Z",
+    "rule": "SUBPREFIX_HIJACK",
+    "severity": "HIGH",
+    "prefix": "45.117.1.0/25",
+    "origin_asn": 64561,
+    "as_path": [
+      65010,
+      64561
+    ],
+    "matching_roa": "ROA(45.117.1.0/24, ASN135817, maxlen=24)",
+    "reason": "More-specific prefix 45.117.1.0/25 (/25) announced by AS64561, but parent 45.117.1.0/24 is authorized only for AS135817",
+    "peer_ip": "",
+    "peer_asn": 0,
+    "label": "HIJACK"
+  },
+  {
+    "alert_id": 65,
+    "timestamp": "2024-06-01T00:11:58Z",
+    "rule": "SUBPREFIX_HIJACK",
+    "severity": "HIGH",
+    "prefix": "208.96.129.0/24",
+    "origin_asn": 64573,
+    "as_path": [
+      65001,
+      65002,
+      64573
+    ],
+    "matching_roa": "ROA(208.96.128.0/21, ASN27742, maxlen=24)",
+    "reason": "More-specific prefix 208.96.129.0/24 (/24) announced by AS64573, but parent 208.96.128.0/21 is authorized only for AS27742",
+    "peer_ip": "",
+    "peer_asn": 0,
+    "label": "HIJACK"
+  },
+  {
+    "alert_id": 66,
+    "timestamp": "2024-06-01T00:26:02Z",
+    "rule": "SUBPREFIX_HIJACK",
+    "severity": "HIGH",
+    "prefix": "192.68.126.30/32",
+    "origin_asn": 64576,
+    "as_path": [
+      65010,
+      64576
+    ],
+    "matching_roa": "ROA(192.68.126.0/24, ASN10515, maxlen=24)",
+    "reason": "More-specific prefix 192.68.126.30/32 (/32) announced by AS64576, but parent 192.68.126.0/24 is authorized only for AS10515",
+    "peer_ip": "",
+    "peer_asn": 0,
+    "label": "HIJACK"
+  },
+  {
+    "alert_id": 67,
+    "timestamp": "2024-06-01T00:12:21Z",
+    "rule": "ORIGIN_MISMATCH",
+    "severity": "HIGH",
+    "prefix": "198.84.110.0/24",
+    "origin_asn": 64533,
+    "as_path": [
+      65001,
+      65002,
+      64533
+    ],
+    "matching_roa": "ROA(198.84.110.0/24, ASN36352, maxlen=24)",
+    "reason": "Prefix 198.84.110.0/24 announced by AS64533 but ROA authorizes AS36352",
+    "peer_ip": "",
+    "peer_asn": 0,
+    "label": "HIJACK"
+  },
+  {
+    "alert_id": 68,
+    "timestamp": "2024-06-01T00:18:39Z",
+    "rule": "SUBPREFIX_HIJACK",
+    "severity": "HIGH",
+    "prefix": "80.82.64.0/25",
+    "origin_asn": 64551,
+    "as_path": [
+      65010,
+      64551
+    ],
+    "matching_roa": "ROA(80.82.64.0/24, ASN202425, maxlen=24)",
+    "reason": "More-specific prefix 80.82.64.0/25 (/25) announced by AS64551, but parent 80.82.64.0/24 is authorized only for AS202425",
+    "peer_ip": "",
+    "peer_asn": 0,
+    "label": "HIJACK"
+  },
+  {
+    "alert_id": 69,
+    "timestamp": "2024-06-01T00:16:52Z",
+    "rule": "SUBPREFIX_HIJACK",
+    "severity": "HIGH",
+    "prefix": "162.251.120.0/23",
+    "origin_asn": 64593,
+    "as_path": [
+      65010,
+      64593
+    ],
+    "matching_roa": "ROA(162.251.120.0/22, ASN64236, maxlen=24)",
+    "reason": "More-specific prefix 162.251.120.0/23 (/23) announced by AS64593, but parent 162.251.120.0/22 is authorized only for AS64236",
+    "peer_ip": "",
+    "peer_asn": 0,
+    "label": "HIJACK"
+  },
+  {
+    "alert_id": 70,
+    "timestamp": "2024-06-01T00:13:22Z",
+    "rule": "ORIGIN_MISMATCH",
+    "severity": "HIGH",
+    "prefix": "2602:faaf:2::/48",
+    "origin_asn": 64570,
+    "as_path": [
+      65001,
+      65002,
+      64570
+    ],
+    "matching_roa": "ROA(2602:faaf:2::/48, ASN49585, maxlen=48)",
+    "reason": "Prefix 2602:faaf:2::/48 announced by AS64570 but ROA authorizes AS49585",
+    "peer_ip": "",
+    "peer_asn": 0,
+    "label": "HIJACK"
+  },
+  {
+    "alert_id": 71,
+    "timestamp": "2024-06-01T00:20:29Z",
+    "rule": "SUBPREFIX_HIJACK",
+    "severity": "HIGH",
+    "prefix": "117.136.70.128/25",
+    "origin_asn": 64597,
+    "as_path": [
+      65010,
+      64597
+    ],
+    "matching_roa": "ROA(117.136.70.0/24, ASN9808, maxlen=24)",
+    "reason": "More-specific prefix 117.136.70.128/25 (/25) announced by AS64597, but parent 117.136.70.0/24 is authorized only for AS9808",
+    "peer_ip": "",
+    "peer_asn": 0,
+    "label": "HIJACK"
+  },
+  {
+    "alert_id": 72,
+    "timestamp": "2024-06-01T00:22:54Z",
+    "rule": "SUBPREFIX_HIJACK",
+    "severity": "HIGH",
+    "prefix": "194.170.72.128/25",
+    "origin_asn": 64515,
+    "as_path": [
+      65010,
+      64515
+    ],
+    "matching_roa": "ROA(194.170.0.0/17, ASN8966, maxlen=17)",
+    "reason": "More-specific prefix 194.170.72.128/25 (/25) announced by AS64515, but parent 194.170.0.0/17 is authorized only for AS8966",
+    "peer_ip": "",
+    "peer_asn": 0,
+    "label": "HIJACK"
+  },
+  {
+    "alert_id": 73,
+    "timestamp": "2024-06-01T00:50:04Z",
+    "rule": "SUBPREFIX_HIJACK",
+    "severity": "HIGH",
+    "prefix": "68.47.238.0/23",
+    "origin_asn": 22909,
+    "as_path": [
+      65100,
+      65101,
+      22909
+    ],
+    "matching_roa": "ROA(68.32.0.0/11, ASN7922, maxlen=11)",
+    "reason": "More-specific prefix 68.47.238.0/23 (/23) announced by AS22909, but parent 68.32.0.0/11 is authorized only for AS7922",
+    "peer_ip": "",
+    "peer_asn": 0,
+    "label": "LEGIT"
+  },
+  {
+    "alert_id": 74,
+    "timestamp": "2024-06-01T00:09:08Z",
+    "rule": "ORIGIN_MISMATCH",
+    "severity": "HIGH",
+    "prefix": "23.227.57.0/24",
+    "origin_asn": 64580,
+    "as_path": [
+      65001,
+      65002,
+      64580
+    ],
+    "matching_roa": "ROA(23.227.57.0/24, ASN396982, maxlen=24)",
+    "reason": "Prefix 23.227.57.0/24 announced by AS64580 but ROA authorizes AS396982",
+    "peer_ip": "",
+    "peer_asn": 0,
+    "label": "HIJACK"
+  },
+  {
+    "alert_id": 75,
+    "timestamp": "2024-06-01T00:14:45Z",
+    "rule": "SUBPREFIX_HIJACK",
+    "severity": "HIGH",
+    "prefix": "180.129.36.128/25",
+    "origin_asn": 64596,
+    "as_path": [
+      65010,
+      64596
+    ],
+    "matching_roa": "ROA(180.129.0.0/18, ASN4773, maxlen=18)",
+    "reason": "More-specific prefix 180.129.36.128/25 (/25) announced by AS64596, but parent 180.129.0.0/18 is authorized only for AS4773",
+    "peer_ip": "",
+    "peer_asn": 0,
+    "label": "HIJACK"
+  },
+  {
+    "alert_id": 76,
+    "timestamp": "2024-06-01T00:15:57Z",
+    "rule": "SUBPREFIX_HIJACK",
+    "severity": "HIGH",
+    "prefix": "2806:370:8068::/45",
+    "origin_asn": 64576,
+    "as_path": [
+      65010,
+      64576
+    ],
+    "matching_roa": "ROA(2806:370:8060::/44, ASN28403, maxlen=44)",
+    "reason": "More-specific prefix 2806:370:8068::/45 (/45) announced by AS64576, but parent 2806:370:8060::/44 is authorized only for AS28403",
+    "peer_ip": "",
+    "peer_asn": 0,
+    "label": "HIJACK"
+  },
+  {
+    "alert_id": 77,
+    "timestamp": "2024-06-01T00:20:39Z",
+    "rule": "SUBPREFIX_HIJACK",
+    "severity": "HIGH",
+    "prefix": "2a04:4e40:f430::/45",
+    "origin_asn": 64546,
+    "as_path": [
+      65010,
+      64546
+    ],
+    "matching_roa": "ROA(2a04:4e40::/32, ASN54113, maxlen=32)",
+    "reason": "More-specific prefix 2a04:4e40:f430::/45 (/45) announced by AS64546, but parent 2a04:4e40::/32 is authorized only for AS54113",
+    "peer_ip": "",
+    "peer_asn": 0,
+    "label": "HIJACK"
+  },
+  {
+    "alert_id": 78,
+    "timestamp": "2024-06-01T00:06:31Z",
+    "rule": "SUBPREFIX_HIJACK",
+    "severity": "HIGH",
+    "prefix": "222.126.216.0/24",
+    "origin_asn": 64564,
+    "as_path": [
+      65001,
+      65002,
+      64564
+    ],
+    "matching_roa": "ROA(222.126.128.0/17, ASN7468, maxlen=24)",
+    "reason": "More-specific prefix 222.126.216.0/24 (/24) announced by AS64564, but parent 222.126.128.0/17 is authorized only for AS7468",
+    "peer_ip": "",
+    "peer_asn": 0,
+    "label": "HIJACK"
+  },
+  {
+    "alert_id": 79,
+    "timestamp": "2024-06-01T00:01:05Z",
+    "rule": "SUBPREFIX_HIJACK",
+    "severity": "HIGH",
+    "prefix": "44.216.184.0/22",
+    "origin_asn": 64587,
+    "as_path": [
+      65001,
+      65002,
+      64587
+    ],
+    "matching_roa": "ROA(44.192.0.0/11, ASN14618, maxlen=11)",
+    "reason": "More-specific prefix 44.216.184.0/22 (/22) announced by AS64587, but parent 44.192.0.0/11 is authorized only for AS14618",
+    "peer_ip": "",
+    "peer_asn": 0,
+    "label": "HIJACK"
+  },
+  {
+    "alert_id": 80,
+    "timestamp": "2024-06-01T00:34:00Z",
+    "rule": "SUBPREFIX_HIJACK",
+    "severity": "HIGH",
+    "prefix": "194.170.72.0/24",
+    "origin_asn": 5384,
+    "as_path": [
+      65100,
+      65101,
+      5384
+    ],
+    "matching_roa": "ROA(194.170.0.0/17, ASN8966, maxlen=17)",
+    "reason": "More-specific prefix 194.170.72.0/24 (/24) announced by AS5384, but parent 194.170.0.0/17 is authorized only for AS8966",
+    "peer_ip": "",
+    "peer_asn": 0,
+    "label": "LEGIT"
+  },
+  {
+    "alert_id": 81,
+    "timestamp": "2024-06-01T00:17:14Z",
+    "rule": "SUBPREFIX_HIJACK",
+    "severity": "HIGH",
+    "prefix": "136.162.148.0/23",
+    "origin_asn": 64568,
+    "as_path": [
+      65010,
+      64568
+    ],
+    "matching_roa": "ROA(136.162.148.0/22, ASN5650, maxlen=24)",
+    "reason": "More-specific prefix 136.162.148.0/23 (/23) announced by AS64568, but parent 136.162.148.0/22 is authorized only for AS5650",
+    "peer_ip": "",
+    "peer_asn": 0,
+    "label": "HIJACK"
+  },
+  {
+    "alert_id": 82,
+    "timestamp": "2024-06-01T00:05:54Z",
+    "rule": "SUBPREFIX_HIJACK",
+    "severity": "HIGH",
+    "prefix": "194.76.31.0/24",
+    "origin_asn": 64596,
+    "as_path": [
+      65001,
+      65002,
+      64596
+    ],
+    "matching_roa": "ROA(194.76.30.0/23, ASN3320, maxlen=23)",
+    "reason": "More-specific prefix 194.76.31.0/24 (/24) announced by AS64596, but parent 194.76.30.0/23 is authorized only for AS3320",
+    "peer_ip": "",
+    "peer_asn": 0,
+    "label": "HIJACK"
+  },
+  {
+    "alert_id": 83,
+    "timestamp": "2024-06-01T00:13:49Z",
+    "rule": "ORIGIN_MISMATCH",
+    "severity": "HIGH",
+    "prefix": "83.139.244.0/23",
+    "origin_asn": 64566,
+    "as_path": [
+      65001,
+      65002,
+      64566
+    ],
+    "matching_roa": "ROA(83.139.244.0/23, ASN1299, maxlen=24)",
+    "reason": "Prefix 83.139.244.0/23 announced by AS64566 but ROA authorizes AS1299",
+    "peer_ip": "",
+    "peer_asn": 0,
+    "label": "HIJACK"
+  },
+  {
+    "alert_id": 84,
+    "timestamp": "2024-06-01T00:00:38Z",
+    "rule": "SUBPREFIX_HIJACK",
+    "severity": "HIGH",
+    "prefix": "36.213.97.0/24",
+    "origin_asn": 64540,
+    "as_path": [
+      65001,
+      65002,
+      64540
+    ],
+    "matching_roa": "ROA(36.213.0.0/16, ASN9808, maxlen=16)",
+    "reason": "More-specific prefix 36.213.97.0/24 (/24) announced by AS64540, but parent 36.213.0.0/16 is authorized only for AS9808",
+    "peer_ip": "",
+    "peer_asn": 0,
+    "label": "HIJACK"
+  },
+  {
+    "alert_id": 85,
+    "timestamp": "2024-06-01T00:19:16Z",
+    "rule": "SUBPREFIX_HIJACK",
+    "severity": "HIGH",
+    "prefix": "2001:579:609a::/47",
+    "origin_asn": 64583,
+    "as_path": [
+      65010,
+      64583
+    ],
+    "matching_roa": "ROA(2001:579:6000::/36, ASN22773, maxlen=36)",
+    "reason": "More-specific prefix 2001:579:609a::/47 (/47) announced by AS64583, but parent 2001:579:6000::/36 is authorized only for AS22773",
+    "peer_ip": "",
+    "peer_asn": 0,
+    "label": "HIJACK"
+  },
+  {
+    "alert_id": 86,
+    "timestamp": "2024-06-01T00:52:14Z",
+    "rule": "SUBPREFIX_HIJACK",
+    "severity": "HIGH",
+    "prefix": "194.170.72.0/24",
+    "origin_asn": 5384,
+    "as_path": [
+      65200,
+      5384
+    ],
+    "matching_roa": "ROA(194.170.0.0/17, ASN8966, maxlen=17)",
+    "reason": "More-specific prefix 194.170.72.0/24 (/24) announced by AS5384, but parent 194.170.0.0/17 is authorized only for AS8966",
+    "peer_ip": "",
+    "peer_asn": 0,
+    "label": "LEGIT"
+  },
+  {
+    "alert_id": 87,
+    "timestamp": "2024-06-01T00:18:23Z",
+    "rule": "SUBPREFIX_HIJACK",
+    "severity": "HIGH",
+    "prefix": "92.153.0.0/17",
+    "origin_asn": 64567,
+    "as_path": [
+      65010,
+      64567
+    ],
+    "matching_roa": "ROA(92.153.0.0/16, ASN3215, maxlen=16)",
+    "reason": "More-specific prefix 92.153.0.0/17 (/17) announced by AS64567, but parent 92.153.0.0/16 is authorized only for AS3215",
+    "peer_ip": "",
+    "peer_asn": 0,
+    "label": "HIJACK"
+  },
+  {
+    "alert_id": 88,
+    "timestamp": "2024-06-01T00:24:46Z",
+    "rule": "SUBPREFIX_HIJACK",
+    "severity": "HIGH",
+    "prefix": "208.96.129.0/25",
+    "origin_asn": 64544,
+    "as_path": [
+      65010,
+      64544
+    ],
+    "matching_roa": "ROA(208.96.128.0/21, ASN27742, maxlen=24)",
+    "reason": "More-specific prefix 208.96.129.0/25 (/25) announced by AS64544, but parent 208.96.128.0/21 is authorized only for AS27742",
+    "peer_ip": "",
+    "peer_asn": 0,
+    "label": "HIJACK"
+  },
+  {
+    "alert_id": 89,
+    "timestamp": "2024-06-01T00:15:26Z",
+    "rule": "SUBPREFIX_HIJACK",
+    "severity": "HIGH",
+    "prefix": "154.198.170.128/25",
+    "origin_asn": 64548,
+    "as_path": [
+      65010,
+      64548
+    ],
+    "matching_roa": "ROA(154.198.168.0/22, ASN328608, maxlen=24)",
+    "reason": "More-specific prefix 154.198.170.128/25 (/25) announced by AS64548, but parent 154.198.168.0/22 is authorized only for AS328608",
+    "peer_ip": "",
+    "peer_asn": 0,
+    "label": "HIJACK"
+  },
+  {
+    "alert_id": 90,
+    "timestamp": "2024-06-01T00:13:08Z",
+    "rule": "ORIGIN_MISMATCH",
+    "severity": "HIGH",
+    "prefix": "217.30.160.0/20",
+    "origin_asn": 64545,
+    "as_path": [
+      65001,
+      65002,
+      64545
+    ],
+    "matching_roa": "ROA(217.30.160.0/20, ASN39032, maxlen=20)",
+    "reason": "Prefix 217.30.160.0/20 announced by AS64545 but ROA authorizes AS39032",
+    "peer_ip": "",
+    "peer_asn": 0,
+    "label": "HIJACK"
+  },
+  {
+    "alert_id": 91,
+    "timestamp": "2024-06-01T00:22:46Z",
+    "rule": "SUBPREFIX_HIJACK",
+    "severity": "HIGH",
+    "prefix": "154.90.24.128/25",
+    "origin_asn": 64598,
+    "as_path": [
+      65010,
+      64598
+    ],
+    "matching_roa": "ROA(154.90.24.0/24, ASN22773, maxlen=24)",
+    "reason": "More-specific prefix 154.90.24.128/25 (/25) announced by AS64598, but parent 154.90.24.0/24 is authorized only for AS22773",
+    "peer_ip": "",
+    "peer_asn": 0,
+    "label": "HIJACK"
+  },
+  {
+    "alert_id": 92,
+    "timestamp": "2024-06-01T00:02:00Z",
+    "rule": "ORIGIN_MISMATCH",
+    "severity": "HIGH",
+    "prefix": "46.252.16.0/20",
+    "origin_asn": 64521,
+    "as_path": [
+      65001,
+      65002,
+      64521
+    ],
+    "matching_roa": "ROA(46.252.16.0/20, ASN8972, maxlen=24)",
+    "reason": "Prefix 46.252.16.0/20 announced by AS64521 but ROA authorizes AS8972",
+    "peer_ip": "",
+    "peer_asn": 0,
+    "label": "HIJACK"
+  },
+  {
+    "alert_id": 93,
+    "timestamp": "2024-06-01T00:23:25Z",
+    "rule": "SUBPREFIX_HIJACK",
+    "severity": "HIGH",
+    "prefix": "117.149.130.0/23",
+    "origin_asn": 64516,
+    "as_path": [
+      65010,
+      64516
+    ],
+    "matching_roa": "ROA(117.149.0.0/16, ASN56041, maxlen=16)",
+    "reason": "More-specific prefix 117.149.130.0/23 (/23) announced by AS64516, but parent 117.149.0.0/16 is authorized only for AS56041",
+    "peer_ip": "",
+    "peer_asn": 0,
+    "label": "HIJACK"
+  },
+  {
+    "alert_id": 94,
+    "timestamp": "2024-06-01T00:26:28Z",
+    "rule": "SUBPREFIX_HIJACK",
+    "severity": "HIGH",
+    "prefix": "111.92.171.128/25",
+    "origin_asn": 64582,
+    "as_path": [
+      65010,
+      64582
+    ],
+    "matching_roa": "ROA(111.92.171.0/24, ASN23671, maxlen=24)",
+    "reason": "More-specific prefix 111.92.171.128/25 (/25) announced by AS64582, but parent 111.92.171.0/24 is authorized only for AS23671",
+    "peer_ip": "",
+    "peer_asn": 0,
+    "label": "HIJACK"
+  },
+  {
+    "alert_id": 95,
+    "timestamp": "2024-06-01T00:33:00Z",
+    "rule": "SUBPREFIX_HIJACK",
+    "severity": "HIGH",
+    "prefix": "2001:c38:9151::/48",
+    "origin_asn": 134565,
+    "as_path": [
+      65100,
+      65101,
+      134565
+    ],
+    "matching_roa": "ROA(2001:c38:9000::/36, ASN9931, maxlen=36)",
+    "reason": "More-specific prefix 2001:c38:9151::/48 (/48) announced by AS134565, but parent 2001:c38:9000::/36 is authorized only for AS9931",
+    "peer_ip": "",
+    "peer_asn": 0,
+    "label": "LEGIT"
+  },
+  {
+    "alert_id": 96,
+    "timestamp": "2024-06-01T00:19:26Z",
+    "rule": "SUBPREFIX_HIJACK",
+    "severity": "HIGH",
+    "prefix": "2a02:2590::/33",
+    "origin_asn": 64542,
+    "as_path": [
+      65010,
+      64542
+    ],
+    "matching_roa": "ROA(2a02:2590::/32, ASN51615, maxlen=32)",
+    "reason": "More-specific prefix 2a02:2590::/33 (/33) announced by AS64542, but parent 2a02:2590::/32 is authorized only for AS51615",
+    "peer_ip": "",
+    "peer_asn": 0,
+    "label": "HIJACK"
+  },
+  {
+    "alert_id": 97,
+    "timestamp": "2024-06-01T00:06:12Z",
+    "rule": "SUBPREFIX_HIJACK",
+    "severity": "HIGH",
+    "prefix": "178.45.16.0/20",
+    "origin_asn": 64557,
+    "as_path": [
+      65001,
+      65002,
+      64557
+    ],
+    "matching_roa": "ROA(178.44.0.0/14, ASN12389, maxlen=20)",
+    "reason": "More-specific prefix 178.45.16.0/20 (/20) announced by AS64557, but parent 178.44.0.0/14 is authorized only for AS12389",
+    "peer_ip": "",
+    "peer_asn": 0,
+    "label": "HIJACK"
+  },
+  {
+    "alert_id": 98,
+    "timestamp": "2024-06-01T00:17:19Z",
+    "rule": "SUBPREFIX_HIJACK",
+    "severity": "HIGH",
+    "prefix": "240e:108:1183:8000::/49",
+    "origin_asn": 64583,
+    "as_path": [
+      65010,
+      64583
+    ],
+    "matching_roa": "ROA(240e:108:1180::/44, ASN4134, maxlen=44)",
+    "reason": "More-specific prefix 240e:108:1183:8000::/49 (/49) announced by AS64583, but parent 240e:108:1180::/44 is authorized only for AS4134",
+    "peer_ip": "",
+    "peer_asn": 0,
+    "label": "HIJACK"
+  },
+  {
+    "alert_id": 99,
+    "timestamp": "2024-06-01T00:22:24Z",
+    "rule": "SUBPREFIX_HIJACK",
+    "severity": "HIGH",
+    "prefix": "92.14.0.0/15",
+    "origin_asn": 64556,
+    "as_path": [
+      65010,
+      64556
+    ],
+    "matching_roa": "ROA(92.12.0.0/14, ASN19905, maxlen=24)",
+    "reason": "More-specific prefix 92.14.0.0/15 (/15) announced by AS64556, but parent 92.12.0.0/14 is authorized only for AS19905",
+    "peer_ip": "",
+    "peer_asn": 0,
+    "label": "HIJACK"
+  },
+  {
+    "alert_id": 100,
+    "timestamp": "2024-06-01T00:18:50Z",
+    "rule": "SUBPREFIX_HIJACK",
+    "severity": "HIGH",
+    "prefix": "188.132.218.0/25",
+    "origin_asn": 64557,
+    "as_path": [
+      65010,
+      64557
+    ],
+    "matching_roa": "ROA(188.132.218.0/24, ASN34984, maxlen=24)",
+    "reason": "More-specific prefix 188.132.218.0/25 (/25) announced by AS64557, but parent 188.132.218.0/24 is authorized only for AS34984",
+    "peer_ip": "",
+    "peer_asn": 0,
+    "label": "HIJACK"
+  },
+  {
+    "alert_id": 101,
+    "timestamp": "2024-06-01T00:18:58Z",
+    "rule": "SUBPREFIX_HIJACK",
+    "severity": "HIGH",
+    "prefix": "68.192.0.0/14",
+    "origin_asn": 64597,
+    "as_path": [
+      65010,
+      64597
+    ],
+    "matching_roa": "ROA(68.192.0.0/13, ASN6128, maxlen=24)",
+    "reason": "More-specific prefix 68.192.0.0/14 (/14) announced by AS64597, but parent 68.192.0.0/13 is authorized only for AS6128",
+    "peer_ip": "",
+    "peer_asn": 0,
+    "label": "HIJACK"
+  },
+  {
+    "alert_id": 102,
+    "timestamp": "2024-06-01T00:12:38Z",
+    "rule": "SUBPREFIX_HIJACK",
+    "severity": "HIGH",
+    "prefix": "2402:f1c0:40e4::/48",
+    "origin_asn": 64512,
+    "as_path": [
+      65001,
+      65002,
+      64512
+    ],
+    "matching_roa": "ROA(2402:f1c0::/32, ASN137868, maxlen=32)",
+    "reason": "More-specific prefix 2402:f1c0:40e4::/48 (/48) announced by AS64512, but parent 2402:f1c0::/32 is authorized only for AS137868",
+    "peer_ip": "",
+    "peer_asn": 0,
+    "label": "HIJACK"
+  },
+  {
+    "alert_id": 103,
+    "timestamp": "2024-06-01T00:31:05Z",
+    "rule": "SUBPREFIX_HIJACK",
+    "severity": "HIGH",
+    "prefix": "208.96.129.0/24",
+    "origin_asn": 52501,
+    "as_path": [
+      65100,
+      65101,
+      52501
+    ],
+    "matching_roa": "ROA(208.96.128.0/21, ASN27742, maxlen=24)",
+    "reason": "More-specific prefix 208.96.129.0/24 (/24) announced by AS52501, but parent 208.96.128.0/21 is authorized only for AS27742",
+    "peer_ip": "",
+    "peer_asn": 0,
+    "label": "LEGIT"
+  },
+  {
+    "alert_id": 104,
+    "timestamp": "2024-06-01T00:11:17Z",
+    "rule": "SUBPREFIX_HIJACK",
+    "severity": "HIGH",
+    "prefix": "117.143.152.0/22",
+    "origin_asn": 64523,
+    "as_path": [
+      65001,
+      65002,
+      64523
+    ],
+    "matching_roa": "ROA(117.143.0.0/16, ASN24400, maxlen=16)",
+    "reason": "More-specific prefix 117.143.152.0/22 (/22) announced by AS64523, but parent 117.143.0.0/16 is authorized only for AS24400",
+    "peer_ip": "",
+    "peer_asn": 0,
+    "label": "HIJACK"
+  },
+  {
+    "alert_id": 105,
+    "timestamp": "2024-06-01T00:25:25Z",
+    "rule": "SUBPREFIX_HIJACK",
+    "severity": "HIGH",
+    "prefix": "186.243.162.0/25",
+    "origin_asn": 64558,
+    "as_path": [
+      65010,
+      64558
+    ],
+    "matching_roa": "ROA(186.243.162.0/24, ASN44559, maxlen=24)",
+    "reason": "More-specific prefix 186.243.162.0/25 (/25) announced by AS64558, but parent 186.243.162.0/24 is authorized only for AS44559",
+    "peer_ip": "",
+    "peer_asn": 0,
+    "label": "HIJACK"
+  },
+  {
+    "alert_id": 106,
+    "timestamp": "2024-06-01T00:07:56Z",
+    "rule": "ORIGIN_MISMATCH",
+    "severity": "HIGH",
+    "prefix": "31.77.106.0/24",
+    "origin_asn": 64563,
+    "as_path": [
+      65001,
+      65002,
+      64563
+    ],
+    "matching_roa": "ROA(31.77.106.0/24, ASN215730, maxlen=24)",
+    "reason": "Prefix 31.77.106.0/24 announced by AS64563 but ROA authorizes AS215730",
+    "peer_ip": "",
+    "peer_asn": 0,
+    "label": "HIJACK"
+  },
+  {
+    "alert_id": 107,
+    "timestamp": "2024-06-01T00:29:29Z",
+    "rule": "SUBPREFIX_HIJACK",
+    "severity": "HIGH",
+    "prefix": "154.198.170.0/24",
+    "origin_asn": 17561,
+    "as_path": [
+      65100,
+      65101,
+      17561
+    ],
+    "matching_roa": "ROA(154.198.168.0/22, ASN328608, maxlen=24)",
+    "reason": "More-specific prefix 154.198.170.0/24 (/24) announced by AS17561, but parent 154.198.168.0/22 is authorized only for AS328608",
+    "peer_ip": "",
+    "peer_asn": 0,
+    "label": "LEGIT"
+  },
+  {
+    "alert_id": 108,
+    "timestamp": "2024-06-01T00:00:43Z",
+    "rule": "SUBPREFIX_HIJACK",
+    "severity": "HIGH",
+    "prefix": "168.196.244.0/24",
+    "origin_asn": 64555,
+    "as_path": [
+      65001,
+      65002,
+      64555
+    ],
+    "matching_roa": "ROA(168.196.244.0/22, ASN263801, maxlen=24)",
+    "reason": "More-specific prefix 168.196.244.0/24 (/24) announced by AS64555, but parent 168.196.244.0/22 is authorized only for AS263801",
+    "peer_ip": "",
+    "peer_asn": 0,
+    "label": "HIJACK"
+  },
+  {
+    "alert_id": 109,
+    "timestamp": "2024-06-01T00:23:53Z",
+    "rule": "SUBPREFIX_HIJACK",
+    "severity": "HIGH",
+    "prefix": "2602:faaf:2:8000::/49",
+    "origin_asn": 64556,
+    "as_path": [
+      65010,
+      64556
+    ],
+    "matching_roa": "ROA(2602:faaf:2::/48, ASN49585, maxlen=48)",
+    "reason": "More-specific prefix 2602:faaf:2:8000::/49 (/49) announced by AS64556, but parent 2602:faaf:2::/48 is authorized only for AS49585",
+    "peer_ip": "",
+    "peer_asn": 0,
+    "label": "HIJACK"
+  },
+  {
+    "alert_id": 110,
+    "timestamp": "2024-06-01T00:04:47Z",
+    "rule": "ORIGIN_MISMATCH",
+    "severity": "HIGH",
+    "prefix": "64.249.0.0/18",
+    "origin_asn": 64572,
+    "as_path": [
+      65001,
+      65002,
+      64572
+    ],
+    "matching_roa": "ROA(64.249.0.0/18, ASN3320, maxlen=24)",
+    "reason": "Prefix 64.249.0.0/18 announced by AS64572 but ROA authorizes AS3320",
+    "peer_ip": "",
+    "peer_asn": 0,
+    "label": "HIJACK"
+  },
+  {
+    "alert_id": 111,
+    "timestamp": "2024-06-01T00:25:48Z",
+    "rule": "SUBPREFIX_HIJACK",
+    "severity": "HIGH",
+    "prefix": "46.252.24.0/21",
+    "origin_asn": 64596,
+    "as_path": [
+      65010,
+      64596
+    ],
+    "matching_roa": "ROA(46.252.16.0/20, ASN8972, maxlen=24)",
+    "reason": "More-specific prefix 46.252.24.0/21 (/21) announced by AS64596, but parent 46.252.16.0/20 is authorized only for AS8972",
+    "peer_ip": "",
+    "peer_asn": 0,
+    "label": "HIJACK"
+  },
+  {
+    "alert_id": 112,
+    "timestamp": "2024-06-01T00:48:19Z",
+    "rule": "SUBPREFIX_HIJACK",
+    "severity": "HIGH",
+    "prefix": "45.194.240.0/24",
+    "origin_asn": 17561,
+    "as_path": [
+      65100,
+      65101,
+      17561
+    ],
+    "matching_roa": "ROA(45.194.128.0/17, ASN22516, maxlen=24)",
+    "reason": "More-specific prefix 45.194.240.0/24 (/24) announced by AS17561, but parent 45.194.128.0/17 is authorized only for AS22516",
+    "peer_ip": "",
+    "peer_asn": 0,
+    "label": "LEGIT"
+  },
+  {
+    "alert_id": 113,
+    "timestamp": "2024-06-01T00:30:15Z",
+    "rule": "SUBPREFIX_HIJACK",
+    "severity": "HIGH",
+    "prefix": "94.182.114.0/23",
+    "origin_asn": 205647,
+    "as_path": [
+      65100,
+      65101,
+      205647
+    ],
+    "matching_roa": "ROA(94.182.0.0/16, ASN31549, maxlen=24)",
+    "reason": "More-specific prefix 94.182.114.0/23 (/23) announced by AS205647, but parent 94.182.0.0/16 is authorized only for AS31549",
+    "peer_ip": "",
+    "peer_asn": 0,
+    "label": "LEGIT"
+  },
+  {
+    "alert_id": 114,
+    "timestamp": "2024-06-01T00:24:17Z",
+    "rule": "SUBPREFIX_HIJACK",
+    "severity": "HIGH",
+    "prefix": "2602:faaf:2:8000::/49",
+    "origin_asn": 64567,
+    "as_path": [
+      65010,
+      64567
+    ],
+    "matching_roa": "ROA(2602:faaf:2::/48, ASN49585, maxlen=48)",
+    "reason": "More-specific prefix 2602:faaf:2:8000::/49 (/49) announced by AS64567, but parent 2602:faaf:2::/48 is authorized only for AS49585",
+    "peer_ip": "",
+    "peer_asn": 0,
+    "label": "HIJACK"
+  },
+  {
+    "alert_id": 115,
+    "timestamp": "2024-06-01T00:02:28Z",
+    "rule": "ORIGIN_MISMATCH",
+    "severity": "HIGH",
+    "prefix": "94.183.205.0/24",
+    "origin_asn": 64516,
+    "as_path": [
+      65001,
+      65002,
+      64516
+    ],
+    "matching_roa": "ROA(94.183.205.0/24, ASN213915, maxlen=24)",
+    "reason": "Prefix 94.183.205.0/24 announced by AS64516 but ROA authorizes AS213915",
+    "peer_ip": "",
+    "peer_asn": 0,
+    "label": "HIJACK"
+  },
+  {
+    "alert_id": 116,
+    "timestamp": "2024-06-01T00:08:49Z",
+    "rule": "ORIGIN_MISMATCH",
+    "severity": "HIGH",
+    "prefix": "89.125.167.0/24",
+    "origin_asn": 64536,
+    "as_path": [
+      65001,
+      65002,
+      64536
+    ],
+    "matching_roa": "ROA(89.125.167.0/24, ASN214159, maxlen=24)",
+    "reason": "Prefix 89.125.167.0/24 announced by AS64536 but ROA authorizes AS214159",
+    "peer_ip": "",
+    "peer_asn": 0,
+    "label": "HIJACK"
+  },
+  {
+    "alert_id": 117,
+    "timestamp": "2024-06-01T00:20:56Z",
+    "rule": "SUBPREFIX_HIJACK",
+    "severity": "HIGH",
+    "prefix": "2402:f1c0:40e4:8000::/49",
+    "origin_asn": 64540,
+    "as_path": [
+      65010,
+      64540
+    ],
+    "matching_roa": "ROA(2402:f1c0::/32, ASN137868, maxlen=32)",
+    "reason": "More-specific prefix 2402:f1c0:40e4:8000::/49 (/49) announced by AS64540, but parent 2402:f1c0::/32 is authorized only for AS137868",
+    "peer_ip": "",
+    "peer_asn": 0,
+    "label": "HIJACK"
+  }
+]
